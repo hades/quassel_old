@@ -65,6 +65,16 @@ void InputLine::keyPressEvent(QKeyEvent * event) {
 
     break;
 
+  case Qt::Key_W:
+    if(event->modifiers() == Qt::ControlModifier) {
+      if(!hasSelectedText())
+        cursorWordBackward(true);
+
+      backspace();
+    }
+    QLineEdit::keyPressEvent(event);
+    break;
+
   case Qt::Key_Select:		// for Qtopia
     emit returnPressed();
 

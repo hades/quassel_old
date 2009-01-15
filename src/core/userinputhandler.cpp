@@ -346,6 +346,39 @@ void UserInputHandler::handleTopic(const BufferInfo &bufferInfo, const QString &
   emit putCmd("TOPIC", params);
 }
 
+void UserInputHandler::handleNames(const BufferInfo &bufferInfo, const QString &msg) {
+  if(bufferInfo.bufferName().isEmpty() || bufferInfo.type() != BufferInfo::ChannelBuffer) return;
+
+  IrcChannel *chan = network()->ircChannel(bufferInfo.bufferName());
+  QList< QString > words;
+  int maxlength = 1;
+  foreach(IrcUser* u, chan->ircUsers())
+  {
+    QString word = QString("%1%2").arg(chan->userModes(u).replace('o','@').replace('v','+').replace('h','%'), 1).arg(u->nick());
+
+    if(word.length() > maxlength)
+      maxlength = word.length();
+
+    words << word;
+  }
+
+  const static int cols = 4;      // FIXME: probably an option.
+  int pos = 1;
+  QString buffer;
+  foreach(QString word, words)
+  {
+    buffer += QString("[%1]").arg(word, -maxlength);
+    if(++pos % cols == 0)
+    {
+      emit displayMsg(Message::Server, bufferInfo.type(), bufferInfo.bufferName(), buffer);
+      buffer.clear();
+    }
+  }
+
+  if(!buffer.isEmpty())
+    emit displayMsg(Message::Server, bufferInfo.type(), bufferInfo.bufferName(), buffer);
+}
+
 void UserInputHandler::handleVoice(const BufferInfo &bufferInfo, const QString &msg) {
   QStringList nicks = msg.split(' ', QString::SkipEmptyParts);
   QString m = "+"; for(int i = 0; i < nicks.count(); i++) m += 'v';

@@ -350,6 +350,8 @@ void UserInputHandler::handleNames(const BufferInfo &bufferInfo, const QString &
   if(bufferInfo.bufferName().isEmpty() || bufferInfo.type() != BufferInfo::ChannelBuffer) return;
 
   IrcChannel *chan = network()->ircChannel(bufferInfo.bufferName());
+  if(!chan) return;
+
   QList< QString > words;
   int maxlength = 1;
   foreach(IrcUser* u, chan->ircUsers())

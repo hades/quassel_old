@@ -454,8 +454,10 @@ void IrcServerHandler::handleTopic(const QString &prefix, const QList<QByteArray
   if(params.count() > 1)
     topic = channelDecode(channel->name(), params[1]);
 
+  QString oldtopic = channel->topic();
   channel->setTopic(topic);
 
+  emit displayMsg(Message::Server, BufferInfo::ChannelBuffer, channel->name(), tr("%1 has removed old topic for %2 \"%3\"").arg(ircuser->nick()).arg(channel->name()).arg(oldtopic));
   emit displayMsg(Message::Server, BufferInfo::ChannelBuffer, channel->name(), tr("%1 has changed topic for %2 to: \"%3\"").arg(ircuser->nick()).arg(channel->name()).arg(topic));
 }
 

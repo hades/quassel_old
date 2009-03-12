@@ -96,12 +96,12 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>AbstractSqlStorage</name>
     <message>
-        <location filename="../src/core/abstractsqlstorage.cpp" line="104"/>
+        <location filename="../src/core/abstractsqlstorage.cpp" line="110"/>
         <source>Installed Schema (version %1) is not up to date. Upgrading to version %2...</source>
         <translation>Используемая схема (версии %1) устарела. Обновляю до версии %2...</translation>
     </message>
     <message>
-        <location filename="../src/core/abstractsqlstorage.cpp" line="106"/>
+        <location filename="../src/core/abstractsqlstorage.cpp" line="112"/>
         <source>Upgrade failed...</source>
         <translation>Обновление не удалось...</translation>
     </message>
@@ -1091,7 +1091,7 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>ChatScene</name>
     <message>
-        <location filename="../src/qtui/chatscene.cpp" line="580"/>
+        <location filename="../src/qtui/chatscene.cpp" line="583"/>
         <source>Copy Selection</source>
         <translation>Скопировать выделение</translation>
     </message>
@@ -1132,12 +1132,12 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>Client</name>
     <message>
-        <location filename="../src/client/client.cpp" line="254"/>
+        <location filename="../src/client/client.cpp" line="256"/>
         <source>Identity already exists in client!</source>
         <translation>Личность уже есть в клиенте!</translation>
     </message>
     <message>
-        <location filename="../src/client/client.cpp" line="317"/>
+        <location filename="../src/client/client.cpp" line="319"/>
         <source>All Buffers</source>
         <translation>Все буфера</translation>
     </message>
@@ -1725,7 +1725,7 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>Core</name>
     <message>
-        <location filename="../src/core/core.cpp" line="146"/>
+        <location filename="../src/core/core.cpp" line="161"/>
         <source>Could not initialize any storage backend! Exiting...</source>
         <translation>Не могу инициализировать ни одно хранилище! Выхожу...</translation>
     </message>
@@ -1734,139 +1734,148 @@ p, li { white-space: pre-wrap; }
         <source>Currently, Quassel only supports SQLite3. You need to build your
 Qt library with the sqlite plugin enabled in order for quasselcore
 to work.</source>
-        <translation>В настоящий момент Quassel поддерживает только SQLite3. Вам нужно
+        <translation type="obsolete">В настоящий момент Quassel поддерживает только SQLite3. Вам нужно
 собрать собственную библиотеку Qt с включенным плагином sqlite
 чтобы quasselcore заработал.</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="186"/>
+        <location filename="../src/core/core.cpp" line="201"/>
         <source>Calling restoreState() even though active sessions exist!</source>
         <translation>Вызываю restoreState(), несмотря на существующие активные сессии!</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="227"/>
+        <location filename="../src/core/core.cpp" line="242"/>
         <source>Admin user or password not set.</source>
         <translation>Нет пользователя-администратора или пароля.</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="231"/>
+        <location filename="../src/core/core.cpp" line="246"/>
         <source>Could not setup storage!</source>
         <translation>Не могу настроить хранилище!</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="235"/>
+        <location filename="../src/core/core.cpp" line="250"/>
         <source>Creating admin user...</source>
         <translation>Создаю пользователя-администратора...</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="420"/>
+        <location filename="../src/core/core.cpp" line="449"/>
         <source>Client connected from</source>
         <translation>Клиент соединился с</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="423"/>
+        <location filename="../src/core/core.cpp" line="452"/>
         <source>Closing server for basic setup.</source>
         <translation>Закрываю сервер для базовой настройки.</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="442"/>
+        <location filename="../src/core/core.cpp" line="471"/>
         <source>Antique client trying to connect... refusing.</source>
         <translation>Древний клиент попытался подключиться... отказываю.</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="456"/>
+        <location filename="../src/core/core.cpp" line="485"/>
         <source>&lt;b&gt;Your Quassel Client is too old!&lt;/b&gt;&lt;br&gt;This core needs at least client/core protocol version %1.&lt;br&gt;Please consider upgrading your client.</source>
         <translation>&lt;b&gt;Ваш клиент Quassel слишком старый!&lt;/b&gt;&lt;br&gt;Этому ядру нужна версия клиент-серверного протокола по крайней мере %1.&lt;br&gt;Пожалуйста обновите клиент.</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="562"/>
+        <location filename="../src/core/core.cpp" line="593"/>
         <source>Client</source>
         <translation>Клиент</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="458"/>
+        <location filename="../src/core/core.cpp" line="487"/>
         <source>too old, rejecting.</source>
         <translation>слишком старый, отказываю.</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="472"/>
+        <location filename="../src/core/core.cpp" line="501"/>
         <source>&lt;b&gt;Quassel Core Version %1&lt;/b&gt;&lt;br&gt;Built: %2&lt;br&gt;Up %3d%4h%5m (since %6)</source>
         <translation>&lt;b&gt;Ядро Quassel версии %1&lt;/b&gt;&lt;br&gt;Собрано: %2&lt;br&gt;Аптайм %3д%4ч%5м (с %6)</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="518"/>
+        <location filename="../src/core/core.cpp" line="549"/>
         <source>Starting TLS for Client:</source>
         <translation>Запускаю TLS для клиента:</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="536"/>
+        <location filename="../src/core/core.cpp" line="567"/>
         <source>&lt;b&gt;Client not initialized!&lt;/b&gt;&lt;br&gt;You need to send an init message before trying to login.</source>
         <translation>&lt;b&gt;Клиент не инициализирован!&lt;/b&gt;&lt;br&gt;Вам нужно отправить инициализационное сообщение перед попыткой входа.</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="538"/>
+        <location filename="../src/core/core.cpp" line="569"/>
         <source>did not send an init message before trying to login, rejecting.</source>
         <translation>не отправил инициализационное сообщение перед попыткой входа, отказываю.</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="556"/>
+        <location filename="../src/core/core.cpp" line="587"/>
         <source>&lt;b&gt;Invalid username or password!&lt;/b&gt;&lt;br&gt;The username/password combination you supplied could not be found in the database.</source>
         <translation>&lt;b&gt;Неверное имя пользователя или пароль!&lt;/b&gt;&lt;br&gt;Предоставленные вами имя пользователя и пароль не найдены в базе.</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="562"/>
+        <location filename="../src/core/core.cpp" line="593"/>
         <source>initialized and authenticated successfully as &quot;%1&quot; (UserId: %2).</source>
         <translation>инициализирован и аутентифицирован успешно как &quot;%1&quot; (UserId: %2).</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="573"/>
+        <location filename="../src/core/core.cpp" line="604"/>
         <source>Non-authed client disconnected.</source>
         <translation>Неавторизованный клиент отсоединён.</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="579"/>
+        <location filename="../src/core/core.cpp" line="610"/>
         <source>Non-authed client disconnected. (socket allready destroyed)</source>
         <translation>Неавторизованный клиент отсоединён. (сокет уже уничтожен)</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="623"/>
+        <location filename="../src/core/core.cpp" line="654"/>
         <source>Could not initialize session for client:</source>
         <translation>Не могу инициализировать сессию для клиента:</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="335"/>
+        <location filename="../src/core/core.cpp" line="364"/>
         <source>Invalid listen address %1</source>
         <translation>Некорректный адрес для прослушивания %1</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="343"/>
+        <location filename="../src/core/core.cpp" line="372"/>
         <source>Listening for GUI clients on IPv4 %1 port %2 using protocol version %3</source>
         <translation>Ожидаю графических клиентов по адресу IPv4 %1 порт %2, использую протокол версии %3</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="351"/>
+        <location filename="../src/core/core.cpp" line="380"/>
         <source>Could not open IPv4 interface %1:%2: %3</source>
         <translation>Не могу открыть интерфейс IPv4 %1:%2: %3</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="359"/>
+        <location filename="../src/core/core.cpp" line="388"/>
         <source>Listening for GUI clients on IPv6 %1 port %2 using protocol version %3</source>
         <translation>Ожидаю графических клиентов по адресу IPv6 %1 порт %2, использую протокол версии %3</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="370"/>
+        <location filename="../src/core/core.cpp" line="399"/>
         <source>Could not open IPv6 interface %1:%2: %3</source>
         <translation>Не могу открыть интерфейс IPv6 %1:%2: %3</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="378"/>
+        <location filename="../src/core/core.cpp" line="407"/>
         <source>Invalid listen address %1, unknown network protocol</source>
         <translation>Некорректный адрес для прослушивания %1, неизвестный сетевой протокол</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="386"/>
+        <location filename="../src/core/core.cpp" line="415"/>
         <source>Could not open any network interfaces to listen on!</source>
         <translation>Не могу открыть ни один сетевой интерфейс для прослушивания!</translation>
+    </message>
+    <message>
+        <location filename="../src/core/core.cpp" line="164"/>
+        <source>Currently, Quassel supports SQLite3 and PostgreSQL. You need to build your
+Qt library with the sqlite or postgres plugin enabled in order for quasselcore
+to work.</source>
+        <translation>В данный момент Quassel поддерживает SQLite3 и PostgreSQL. Чтобы ядро Quassel
+заработало, необходимо собрать библиотеку Qt с включенным плагином sqlite или
+postgres.</translation>
     </message>
 </context>
 <context>
@@ -1988,22 +1997,22 @@ to work.</source>
 <context>
     <name>CoreConfigWizard</name>
     <message>
-        <location filename="../src/qtui/coreconfigwizard.cpp" line="58"/>
+        <location filename="../src/qtui/coreconfigwizard.cpp" line="60"/>
         <source>Core Configuration Wizard</source>
         <translation>Мастер конфигурации ядра</translation>
     </message>
     <message>
-        <location filename="../src/qtui/coreconfigwizard.cpp" line="77"/>
+        <location filename="../src/qtui/coreconfigwizard.cpp" line="82"/>
         <source>Your core has been successfully configured. Logging you in...</source>
         <translation>Ваше ядро сконфигурировано успешно. Выполняю вход в...</translation>
     </message>
     <message>
-        <location filename="../src/qtui/coreconfigwizard.cpp" line="88"/>
+        <location filename="../src/qtui/coreconfigwizard.cpp" line="93"/>
         <source>Core configuration failed:&lt;br&gt;&lt;b&gt;%1&lt;/b&gt;&lt;br&gt;Press &lt;em&gt;Next&lt;/em&gt; to start over.</source>
         <translation>Ошибка конфигурации ядра:&lt;br&gt;&lt;b&gt;%1&lt;/b&gt;&lt;br&gt;Нажмите &lt;em&gt;Далее&lt;/em&gt; чтобы начать сначала.</translation>
     </message>
     <message>
-        <location filename="../src/qtui/coreconfigwizard.cpp" line="105"/>
+        <location filename="../src/qtui/coreconfigwizard.cpp" line="109"/>
         <source>Your are now logged into your freshly configured Quassel Core!&lt;br&gt;Please remember to configure your identities and networks now.</source>
         <translation>Вы вошли в свежесконфигурированное ядро Quassel!&lt;br&gt;Теперь, пожалуйста, не забудьте настроить ваши личности и сети.</translation>
     </message>
@@ -2067,12 +2076,12 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>CoreConfigWizardPages::AdminUserPage</name>
     <message>
-        <location filename="../src/qtui/coreconfigwizard.cpp" line="136"/>
+        <location filename="../src/qtui/coreconfigwizard.cpp" line="140"/>
         <source>Create Admin User</source>
         <translation>Создание пользователя-администратора</translation>
     </message>
     <message>
-        <location filename="../src/qtui/coreconfigwizard.cpp" line="137"/>
+        <location filename="../src/qtui/coreconfigwizard.cpp" line="141"/>
         <source>First, we will create a user on the core. This first user will have administrator privileges.</source>
         <translation>Для начала мы создадим пользователя в ядре. У этого первого пользователя будут привилегии администратора.</translation>
     </message>
@@ -2080,7 +2089,7 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>CoreConfigWizardPages::IntroPage</name>
     <message>
-        <location filename="../src/qtui/coreconfigwizard.cpp" line="121"/>
+        <location filename="../src/qtui/coreconfigwizard.cpp" line="125"/>
         <source>Introduction</source>
         <translation>Введение</translation>
     </message>
@@ -2088,25 +2097,30 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>CoreConfigWizardPages::StorageSelectionPage</name>
     <message>
-        <location filename="../src/qtui/coreconfigwizard.cpp" line="165"/>
+        <location filename="../src/qtui/coreconfigwizard.cpp" line="172"/>
         <source>Select Storage Backend</source>
         <translation>Выбор средства хранения</translation>
     </message>
     <message>
-        <location filename="../src/qtui/coreconfigwizard.cpp" line="166"/>
+        <location filename="../src/qtui/coreconfigwizard.cpp" line="173"/>
         <source>Please select a database backend for the Quassel Core storage to store the backlog and other data in.</source>
         <translation>Пожалуйста выберите движок базы данных, с помощью которого ядро Quassel будет хранить журнал и прочие данные.</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/coreconfigwizard.cpp" line="267"/>
+        <source>Connection Properties</source>
+        <translation>Свойства соединения</translation>
     </message>
 </context>
 <context>
     <name>CoreConfigWizardPages::SyncPage</name>
     <message>
-        <location filename="../src/qtui/coreconfigwizard.cpp" line="195"/>
+        <location filename="../src/qtui/coreconfigwizard.cpp" line="307"/>
         <source>Storing Your Settings</source>
         <translation>Сохранение настроек</translation>
     </message>
     <message>
-        <location filename="../src/qtui/coreconfigwizard.cpp" line="196"/>
+        <location filename="../src/qtui/coreconfigwizard.cpp" line="308"/>
         <source>Your settings are now stored in the core, and you will be logged in automatically.</source>
         <translation>Ваши настройки сохраняются в ядре, вы будете подсоединены к ядру автоматически.</translation>
     </message>
@@ -2442,12 +2456,12 @@ SOME SPACE</translation>
 <context>
     <name>CoreNetwork</name>
     <message>
-        <location filename="../src/core/corenetwork.cpp" line="151"/>
+        <location filename="../src/core/corenetwork.cpp" line="153"/>
         <source>Connection failed. Cycling to next Server</source>
         <translation>Сбой соединения. Пробую следующий сервер</translation>
     </message>
     <message>
-        <location filename="../src/core/corenetwork.cpp" line="160"/>
+        <location filename="../src/core/corenetwork.cpp" line="162"/>
         <source>Connecting to %1:%2...</source>
         <translation>Соединяюсь с %1:%2...</translation>
     </message>
@@ -2457,22 +2471,22 @@ SOME SPACE</translation>
         <translation type="obsolete">Отсоединяюсь.</translation>
     </message>
     <message>
-        <location filename="../src/core/corenetwork.cpp" line="304"/>
+        <location filename="../src/core/corenetwork.cpp" line="306"/>
         <source>Could not connect to %1 (%2)</source>
         <translation>Не могу подсоединиться к %1 (%2)</translation>
     </message>
     <message>
-        <location filename="../src/core/corenetwork.cpp" line="306"/>
+        <location filename="../src/core/corenetwork.cpp" line="308"/>
         <source>Connection failure: %1</source>
         <translation>Сбой соединения: %1</translation>
     </message>
     <message>
-        <location filename="../src/core/corenetwork.cpp" line="208"/>
+        <location filename="../src/core/corenetwork.cpp" line="210"/>
         <source>Disconnecting. (%1)</source>
         <translation>Отсоединяюсь. (%1)</translation>
     </message>
     <message>
-        <location filename="../src/core/corenetwork.cpp" line="208"/>
+        <location filename="../src/core/corenetwork.cpp" line="210"/>
         <source>Core Shutdown</source>
         <translation>Ядро завершает работу</translation>
     </message>
@@ -2485,22 +2499,22 @@ SOME SPACE</translation>
         <translation type="obsolete">Личность по умолчанию</translation>
     </message>
     <message>
-        <location filename="../src/core/coresession.cpp" line="180"/>
+        <location filename="../src/core/coresession.cpp" line="186"/>
         <source>Client</source>
         <translation>Клиент</translation>
     </message>
     <message>
-        <location filename="../src/core/coresession.cpp" line="180"/>
+        <location filename="../src/core/coresession.cpp" line="186"/>
         <source>disconnected (UserId: %1).</source>
         <translation>отсоединён (UserId: %1).</translation>
     </message>
     <message>
-        <location filename="../src/core/coresession.cpp" line="317"/>
+        <location filename="../src/core/coresession.cpp" line="359"/>
         <source>CoreSession::createNetwork(): Got invalid networkId from Core when trying to create network %1!</source>
         <translation>CoreSession::createNetwork(): Получен неверный networkId от ядра, пытаясь создать сеть %1!</translation>
     </message>
     <message>
-        <location filename="../src/core/coresession.cpp" line="339"/>
+        <location filename="../src/core/coresession.cpp" line="381"/>
         <source>CoreSession::createNetwork(): Trying to create a network that already exists, updating instead!</source>
         <translation>CoreSession::createNetwork(): Попытался создать уже существующую сеть, вместо этого обновляю!</translation>
     </message>
@@ -2982,47 +2996,47 @@ SOME SPACE</translation>
         <translation>Личности</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/identitiessettingspage.cpp" line="170"/>
+        <location filename="../src/qtui/settingspages/identitiessettingspage.cpp" line="178"/>
         <source>&lt;b&gt;The following problems need to be corrected before your changes can be applied:&lt;/b&gt;&lt;ul&gt;</source>
         <translation>&lt;b&gt;Прежде чем сохранить настройки, необходимо устранить следующие проблемы:&lt;/b&gt;&lt;ul&gt;</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/identitiessettingspage.cpp" line="171"/>
+        <location filename="../src/qtui/settingspages/identitiessettingspage.cpp" line="179"/>
         <source>&lt;li&gt;All identities need an identity name set&lt;/li&gt;</source>
         <translation>&lt;li&gt;У всех личностей должно быть название&lt;/li&gt;</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/identitiessettingspage.cpp" line="172"/>
+        <location filename="../src/qtui/settingspages/identitiessettingspage.cpp" line="180"/>
         <source>&lt;li&gt;Every identity needs at least one nickname defined&lt;/li&gt;</source>
         <translation>&lt;li&gt;В каждой личности должен быть хотя бы один ник&lt;/li&gt;</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/identitiessettingspage.cpp" line="173"/>
+        <location filename="../src/qtui/settingspages/identitiessettingspage.cpp" line="181"/>
         <source>&lt;li&gt;You need to specify a real name for every identity&lt;/li&gt;</source>
         <translation>&lt;li&gt;Вам нужно указать настоящее имя для каждой личности&lt;/li&gt;</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/identitiessettingspage.cpp" line="174"/>
+        <location filename="../src/qtui/settingspages/identitiessettingspage.cpp" line="182"/>
         <source>&lt;li&gt;You need to specify an ident for every identity&lt;/li&gt;</source>
         <translation>&lt;li&gt;Вам нужно указать идент для каждой личности&lt;/li&gt;</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/identitiessettingspage.cpp" line="175"/>
+        <location filename="../src/qtui/settingspages/identitiessettingspage.cpp" line="183"/>
         <source>&lt;/ul&gt;</source>
         <translation>&lt;/ul&gt;</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/identitiessettingspage.cpp" line="176"/>
+        <location filename="../src/qtui/settingspages/identitiessettingspage.cpp" line="184"/>
         <source>One or more identities are invalid</source>
         <translation>Одна или несколько личностей некорректны</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/identitiessettingspage.cpp" line="306"/>
+        <location filename="../src/qtui/settingspages/identitiessettingspage.cpp" line="310"/>
         <source>Delete Identity?</source>
         <translation>Удалить личность?</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/identitiessettingspage.cpp" line="307"/>
+        <location filename="../src/qtui/settingspages/identitiessettingspage.cpp" line="311"/>
         <source>Do you really want to delete identity &quot;%1&quot;?</source>
         <translation>Вы действительно хотите удалить личность &quot;%1&quot;?</translation>
     </message>
@@ -3032,7 +3046,7 @@ SOME SPACE</translation>
         <translation>Переименовать личность</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/identitiessettingspage.cpp" line="319"/>
+        <location filename="../src/qtui/settingspages/identitiessettingspage.cpp" line="323"/>
         <source>Please enter a new name for the identity &quot;%1&quot;!</source>
         <translation>Пожалуйста введите новое название личности &quot;%1&quot;!</translation>
     </message>
@@ -3630,12 +3644,12 @@ Proceeding will cause an unencrypted transfer of your SSL Key and SSL Certificat
 <context>
     <name>InputWidget</name>
     <message>
-        <location filename="../src/qtui/inputwidget.cpp" line="55"/>
+        <location filename="../src/qtui/inputwidget.cpp" line="54"/>
         <source>Focus Input Line</source>
         <translation>Активировать строку ввода</translation>
     </message>
     <message>
-        <location filename="../src/qtui/inputwidget.cpp" line="56"/>
+        <location filename="../src/qtui/inputwidget.cpp" line="55"/>
         <source>Ctrl+L</source>
         <translation>Ctrl+L</translation>
     </message>
@@ -4180,7 +4194,7 @@ Proceeding will cause an unencrypted transfer of your SSL Key and SSL Certificat
         <translation>Пожалуйста введите название сети:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/networkssettingspage.cpp" line="699"/>
+        <location filename="../src/qtui/settingspages/networkssettingspage.cpp" line="705"/>
         <source>Add Network</source>
         <translation>Добавить сеть</translation>
     </message>
@@ -4559,12 +4573,12 @@ Proceeding will cause an unencrypted transfer of your SSL Key and SSL Certificat
         <translation type="obsolete">Сначала примени!</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/networkssettingspage.cpp" line="546"/>
+        <location filename="../src/qtui/settingspages/networkssettingspage.cpp" line="542"/>
         <source>Delete Network?</source>
         <translation>Удалить сеть?</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/networkssettingspage.cpp" line="547"/>
+        <location filename="../src/qtui/settingspages/networkssettingspage.cpp" line="543"/>
         <source>Do you really want to delete the network &quot;%1&quot; and all related settings, including the backlog?</source>
         <translation>Действительно удалить сеть &quot;%1&quot; и все сопутствующие данные, включая журнал?</translation>
     </message>
@@ -4805,7 +4819,7 @@ Unless you *really* know what you do, leave this as ISO-8859-1!</source>
 <context>
     <name>NickEditDlg</name>
     <message>
-        <location filename="../src/qtui/settingspages/identitiessettingspage.cpp" line="416"/>
+        <location filename="../src/qtui/settingspages/identitiessettingspage.cpp" line="420"/>
         <source>Add Nickname</source>
         <translation>Добавить ник</translation>
     </message>
@@ -4950,6 +4964,14 @@ Unless you *really* know what you do, leave this as ISO-8859-1!</source>
         <location filename="../src/qtui/ui/phononnotificationconfigwidget.ui" line="28"/>
         <source>Play File:</source>
         <translation>Играть файл:</translation>
+    </message>
+</context>
+<context>
+    <name>PostgreSqlStorage</name>
+    <message>
+        <location filename="../src/core/postgresqlstorage.cpp" line="61"/>
+        <source>PostgreSQL Turbo Bomber HD!</source>
+        <translation>PostgreSQL и Чак Норрис в HD!</translation>
     </message>
 </context>
 <context>

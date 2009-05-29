@@ -3746,7 +3746,7 @@ Proceeding will cause an unencrypted transfer of your SSL Key and SSL Certificat
     <message>
         <location filename="../src/core/ircserverhandler.cpp" line="477"/>
         <source>%1 has changed topic for %2 to: &quot;%3&quot;</source>
-        <translation>%1 меняет тему канала %2 на &quot;%3&quot;</translation>
+        <translation>%1 сменил тему канала %2 на &quot;%3&quot;</translation>
     </message>
     <message>
         <location filename="../src/core/ircserverhandler.cpp" line="502"/>
@@ -5757,22 +5757,22 @@ Unless you *really* know what you do, leave this as ISO-8859-1!</source>
     <message>
         <location filename="../src/uisupport/uistyle.cpp" line="336"/>
         <source>%Dj%DN%1%DN %DH(%2@%3)%DH has joined %DC%4%DC</source>
-        <translation>%Dj%DN%1%DN %DH(%2@%3)%DH заходит на канал %DC%4%DC</translation>
+        <translation>%Dj%DN%1%DN %DH(%2@%3)%DH вошёл на канал %DC%4%DC</translation>
     </message>
     <message>
         <location filename="../src/uisupport/uistyle.cpp" line="338"/>
         <source>%Dp%DN%1%DN %DH(%2@%3)%DH has left %DC%4%DC</source>
-        <translation>%Dp%DN%1%DN %DH(%2@%3)%DH покидает %DC%4%DC</translation>
+        <translation>%Dp%DN%1%DN %DH(%2@%3)%DH покинул %DC%4%DC</translation>
     </message>
     <message>
         <location filename="../src/uisupport/uistyle.cpp" line="342"/>
         <source>%Dq%DN%1%DN %DH(%2@%3)%DH has quit</source>
-        <translation>%Dq%DN%1%DN %DH(%2@%3)%DH выходит из сети</translation>
+        <translation>%Dq%DN%1%DN %DH(%2@%3)%DH вышел из сети</translation>
     </message>
     <message>
         <location filename="../src/uisupport/uistyle.cpp" line="348"/>
         <source>%Dk%DN%1%DN has kicked %DN%2%DN from %DC%3%DC</source>
-        <translation>%Dk%DN%1%DN выгоняет %DN%2%DN с %DC%3%DC</translation>
+        <translation>%Dk%DN%1%DN выгнал %DN%2%DN с %DC%3%DC</translation>
     </message>
     <message>
         <location filename="../src/uisupport/uistyle.cpp" line="353"/>
@@ -5782,7 +5782,7 @@ Unless you *really* know what you do, leave this as ISO-8859-1!</source>
     <message>
         <location filename="../src/uisupport/uistyle.cpp" line="354"/>
         <source>%Dr%DN%1%DN is now known as %DN%2%DN</source>
-        <translation>%Dr%DN%1%DN меняет имя на %DN%2%DN</translation>
+        <translation>%Dr%DN%1%DN теперь известен как %DN%2%DN</translation>
     </message>
     <message>
         <location filename="../src/uisupport/uistyle.cpp" line="357"/>

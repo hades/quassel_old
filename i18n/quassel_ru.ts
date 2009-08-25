@@ -620,7 +620,7 @@ You can also choose to fetch additional older chatlines to provide a better cont
     </message>
     <message>
         <source>Do you want to delete the buffer &quot;%1&quot; permanently? This will delete all related data, including all backlog data, from the core&apos;s database!</source>
-        <translation type="obsolete">Удалить буфер &quot;%1&quot; навсегда? Это удалить все относящиеся к нему данные, включая историю, из базы данных ядра!</translation>
+        <translation type="obsolete">Удалить буфер «%1» навсегда? Это удалить все относящиеся к нему данные, включая историю, из базы данных ядра!</translation>
     </message>
     <message>
         <source>Joins</source>
@@ -655,7 +655,7 @@ You can also choose to fetch additional older chatlines to provide a better cont
         <location filename="../src/uisupport/bufferview.cpp" line="246"/>
         <source>Do you want to merge the buffer &quot;%1&quot; permanently into buffer &quot;%2&quot;?
  This cannot be reversed!</source>
-        <translation>Хотите ли вы слить буфер &quot;%1&quot; с буфером &quot;%2&quot;?
+        <translation>Хотите ли вы слить буфер «%1» с буфером «%2»?
  Это нельзя обратить!</translation>
     </message>
 </context>
@@ -738,7 +738,7 @@ You can also choose to fetch additional older chatlines to provide a better cont
     <message>
         <location filename="../src/qtui/settingspages/bufferviewsettingspage.cpp" line="343"/>
         <source>Do you really want to delete the chat list &quot;%1&quot;?</source>
-        <translation>Действительно удалить список чатов &quot;%1&quot;?</translation>
+        <translation>Действительно удалить список чатов «%1»?</translation>
     </message>
     <message>
         <source>Delete Buffer View?</source>
@@ -2223,7 +2223,7 @@ to work.</source>
     <message>
         <location filename="../src/core/core.cpp" line="615"/>
         <source>initialized and authenticated successfully as &quot;%1&quot; (UserId: %2).</source>
-        <translation>инициализирован и аутентифицирован успешно как &quot;%1&quot; (UserId: %2).</translation>
+        <translation>инициализирован и аутентифицирован успешно как «%1» (UserId: %2).</translation>
     </message>
     <message>
         <location filename="../src/core/core.cpp" line="626"/>
@@ -2777,7 +2777,7 @@ SOME SPACE</translation>
     <message>
         <location filename="../src/qtui/coreconnectdlg.cpp" line="272"/>
         <source>&lt;div&gt;Errors occurred while connecting to &quot;%1&quot;:&lt;/div&gt;</source>
-        <translation>&lt;div&gt;При соединении с &quot;%1&quot; возникли ошибки:&lt;/div&gt;</translation>
+        <translation>&lt;div&gt;При соединении с «%1» возникли ошибки:&lt;/div&gt;</translation>
     </message>
     <message>
         <location filename="../src/qtui/ui/coreconnectdlg.ui" line="356"/>
@@ -3146,27 +3146,27 @@ SOME SPACE</translation>
     <message>
         <location filename="../src/client/execwrapper.cpp" line="53"/>
         <source>Name &quot;%1&quot; is invalid: ../ or ..\ are not allowed!</source>
-        <translation>Имя &quot;%1&quot; некорректно: ../ и ..\ запрещены!</translation>
+        <translation>Имя «%1» некорректно: ../ и ..\ запрещены!</translation>
     </message>
     <message>
         <location filename="../src/client/execwrapper.cpp" line="64"/>
         <source>Could not find script &quot;%1&quot;</source>
-        <translation>Не могу найти скрипт &quot;%1&quot;</translation>
+        <translation>Не могу найти скрипт «%1»</translation>
     </message>
     <message>
         <location filename="../src/client/execwrapper.cpp" line="82"/>
         <source>Script &quot;%1&quot; crashed with exit code %2.</source>
-        <translation>Скрипт &quot;%1&quot; аварийно завершил работу с кодом %2.</translation>
+        <translation>Скрипт «%1» аварийно завершил работу с кодом %2.</translation>
     </message>
     <message>
         <location filename="../src/client/execwrapper.cpp" line="98"/>
         <source>Script &quot;%1&quot; could not start.</source>
-        <translation>Скрипт &quot;%1&quot; не может быть запущен.</translation>
+        <translation>Скрипт «%1» не может быть запущен.</translation>
     </message>
     <message>
         <location filename="../src/client/execwrapper.cpp" line="100"/>
         <source>Script &quot;%1&quot; caused error %2.</source>
-        <translation>Скрипт &quot;%1&quot; вызвал ошибку %2.</translation>
+        <translation>Скрипт «%1» вызвал ошибку %2.</translation>
     </message>
 </context>
 <context>
@@ -3542,7 +3542,7 @@ SOME SPACE</translation>
     <message>
         <location filename="../src/qtui/settingspages/identitiessettingspage.cpp" line="311"/>
         <source>Do you really want to delete identity &quot;%1&quot;?</source>
-        <translation>Вы действительно хотите удалить личность &quot;%1&quot;?</translation>
+        <translation>Вы действительно хотите удалить личность «%1»?</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/identitiessettingspage.cpp" line="322"/>
@@ -3553,7 +3553,7 @@ SOME SPACE</translation>
     <message>
         <location filename="../src/qtui/settingspages/identitiessettingspage.cpp" line="323"/>
         <source>Please enter a new name for the identity &quot;%1&quot;!</source>
-        <translation>Пожалуйста введите новое название личности &quot;%1&quot;!</translation>
+        <translation>Пожалуйста введите новое название личности «%1»!</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/identitiessettingspage.ui" line="34"/>
@@ -3893,7 +3893,7 @@ Proceeding will cause an unencrypted transfer of your SSL Key and SSL Certificat
     <message>
         <location filename="../src/qtui/settingspages/identityeditwidget.ui" line="44"/>
         <source>The &quot;Real Name&quot; is shown in /whois.</source>
-        <translation>&quot;Настоящее имя&quot; отображается в /whois.</translation>
+        <translation>«Настоящее имя» отображается в /whois.</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/identityeditwidget.ui" line="53"/>
@@ -3954,12 +3954,12 @@ Proceeding will cause an unencrypted transfer of your SSL Key and SSL Certificat
     <message>
         <location filename="../src/qtui/settingspages/identityeditwidget.ui" line="232"/>
         <source>Default Away Settings</source>
-        <translation>Настройки состояния &quot;Отсутствую&quot; по умолчанию</translation>
+        <translation>Настройки состояния «Отсутствую» по умолчанию</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/identityeditwidget.ui" line="243"/>
         <source>Nick to be used when being away</source>
-        <translation>Ник для состояния &quot;Отсутствую&quot;</translation>
+        <translation>Ник для состояния «Отсутствую»</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/identityeditwidget.ui" line="253"/>
@@ -3981,12 +3981,12 @@ Proceeding will cause an unencrypted transfer of your SSL Key and SSL Certificat
     <message>
         <location filename="../src/qtui/settingspages/identityeditwidget.ui" line="279"/>
         <source>Set away when all clients have detached from the core</source>
-        <translation>Устанавливать состояние &quot;отсутствую&quot;, когда все клиенты отсоединены от ядра</translation>
+        <translation>Устанавливать состояние «отсутствую», когда все клиенты отсоединены от ядра</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/identityeditwidget.ui" line="282"/>
         <source>Away On Detach</source>
-        <translation>&quot;Отсутствую&quot; при отсоединении</translation>
+        <translation>«Отсутствую» при отсоединении</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/identityeditwidget.ui" line="314"/>
@@ -3996,12 +3996,12 @@ Proceeding will cause an unencrypted transfer of your SSL Key and SSL Certificat
     <message>
         <location filename="../src/qtui/settingspages/identityeditwidget.ui" line="317"/>
         <source>Away On Idle</source>
-        <translation>&quot;Отсутствую&quot; при неактивности</translation>
+        <translation>«Отсутствую» при неактивности</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/identityeditwidget.ui" line="331"/>
         <source>Set away after</source>
-        <translation>Устанавливать &quot;отсутствую&quot; после</translation>
+        <translation>Устанавливать «отсутствую» после</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/identityeditwidget.ui" line="341"/>
@@ -4016,7 +4016,7 @@ Proceeding will cause an unencrypted transfer of your SSL Key and SSL Certificat
     <message>
         <location filename="../src/qtui/settingspages/identityeditwidget.ui" line="413"/>
         <source>The &quot;ident&quot; is part of your hostmask and, together with your host, uniquely identifies you within the IRC network.</source>
-        <translation>&quot;Идент&quot; является частью хостмаски и вместе с хостом является однозначным идентификатором пользователя сети IRC.</translation>
+        <translation>«Идент» является частью хостмаски и вместе с хостом является однозначным идентификатором пользователя сети IRC.</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/identityeditwidget.ui" line="422"/>
@@ -4233,14 +4233,14 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- &lt;span style=&quot; text-decoration: underline;&quot;&gt;текстом сообщения,&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; text-decoration: underline;&quot;&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Например:&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    &quot;*шушпанчик*&quot; соответствует любому сообщению, содержащему слово &quot;шушпанчик&quot;&lt;/p&gt;
+&lt;p style=« margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    «*шушпанчик*» соответствует любому сообщению, содержащему слово «шушпанчик»&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- &lt;span style=&quot; text-decoration: underline;&quot;&gt;адресом отправителя.&lt;/span&gt;&lt;span style=&quot; font-style:italic; text-decoration: underline;&quot;&gt;nick!ident@host.name&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-style:italic; text-decoration: underline;&quot;&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Примеры:&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    &quot;*@foobar.com&quot; соответствует любому отправителю с хоста &quot;foobar.com&quot;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    «*@foobar.com» соответствует любому отправителю с хоста «foobar.com»&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    &quot;stupid!.+&quot; (RegEx) соответствует любому отправителю с ником &quot;stupid&quot; с любого хоста&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    «stupid!.+» (RegEx) соответствует любому отправителю с ником «stupid» с любого хоста&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/ignorelisteditdlg.ui" line="138"/>
@@ -4399,7 +4399,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/qtui/settingspages/ignorelistmodel.cpp" line="73"/>
         <source>&lt;b&gt;Ignore rule:&lt;/b&gt;&lt;br /&gt;Depending on the type of the rule, the text is matched against either:&lt;br /&gt;&lt;br /&gt;- &lt;u&gt;the message content:&lt;/u&gt;&lt;br /&gt;&lt;i&gt;Example:&lt;i&gt;&lt;br /&gt;    &quot;*foobar*&quot; matches any text containing the word &quot;foobar&quot;&lt;br /&gt;&lt;br /&gt;- &lt;u&gt;the sender string &lt;i&gt;nick!ident@host.name&lt;i&gt;&lt;/u&gt;&lt;br /&gt;&lt;i&gt;Example:&lt;/i&gt;&lt;br /&gt;    &quot;*@foobar.com&quot; matches any sender from host foobar.com&lt;br /&gt;    &quot;stupid!.+&quot; (RegEx) matches any sender with nickname &quot;stupid&quot; from any host&lt;br /&gt;</source>
-        <translation>&lt;b&gt;Правило игнорирования:&lt;/b&gt;&lt;br /&gt;В зависимости от типа правила, шаблон сравнивается с:&lt;br /&gt;&lt;br /&gt;- &lt;u&gt;текстом сообщения,&lt;/u&gt;&lt;br /&gt;&lt;i&gt;Например:&lt;i&gt;&lt;br /&gt;    &quot;*шушпанчик*&quot; соответствует любому сообщению, содержащему слово &quot;шушпанчик&quot;&lt;br /&gt;&lt;br /&gt;- &lt;u&gt;адресом отправителя &lt;i&gt;nick!ident@host.name&lt;i&gt;&lt;/u&gt;&lt;br /&gt;&lt;i&gt;Например:&lt;/i&gt;&lt;br /&gt;    &quot;*@foobar.com&quot; соответствует любому отправителю с хоста &quot;foobar.com&quot;&lt;br /&gt;    &quot;stupid!.+&quot; (RegEx) соответствует любому отправителю с ником &quot;stupid&quot; с любого хоста&lt;br /&gt;</translation>
+        <translation>&lt;b&gt;Правило игнорирования:&lt;/b&gt;&lt;br /&gt;В зависимости от типа правила, шаблон сравнивается с:&lt;br /&gt;&lt;br /&gt;- &lt;u&gt;текстом сообщения,&lt;/u&gt;&lt;br /&gt;&lt;i&gt;Например:&lt;i&gt;&lt;br /&gt;    «*шушпанчик*» соответствует любому сообщению, содержащему слово «шушпанчик»&lt;br /&gt;&lt;br /&gt;- &lt;u&gt;адресом отправителя &lt;i&gt;nick!ident@host.name&lt;i&gt;&lt;/u&gt;&lt;br /&gt;&lt;i&gt;Например:&lt;/i&gt;&lt;br /&gt;    «*@foobar.com» соответствует любому отправителю с хоста «foobar.com»&lt;br /&gt;    «stupid!.+» (RegEx) соответствует любому отправителю с ником «stupid» с любого хоста&lt;br /&gt;</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/ignorelistmodel.cpp" line="89"/>
@@ -4649,7 +4649,7 @@ Please choose another rule.</source>
     <message>
         <location filename="../src/core/ircserverhandler.cpp" line="520"/>
         <source>%1 has changed topic for %2 to: &quot;%3&quot;</source>
-        <translation>%1 сменил тему канала %2 на &quot;%3&quot;</translation>
+        <translation>%1 сменил тему канала %2 на «%3»</translation>
     </message>
     <message>
         <location filename="../src/core/ircserverhandler.cpp" line="545"/>
@@ -4672,13 +4672,13 @@ Please choose another rule.</source>
     <message>
         <location filename="../src/core/ircserverhandler.cpp" line="626"/>
         <source>[Whois] %1 is away: &quot;%2&quot;</source>
-        <translation>[Whois] %1 отсутствует: &quot;%2&quot;</translation>
+        <translation>[Whois] %1 отсутствует: «%2»</translation>
     </message>
     <message>
         <location filename="../src/core/ircserverhandler.cpp" line="632"/>
         <location filename="../src/core/ircserverhandler.cpp" line="637"/>
         <source>%1 is away: &quot;%2&quot;</source>
-        <translation>%1 отсутствует: &quot;%2&quot;</translation>
+        <translation>%1 отсутствует: «%2»</translation>
     </message>
     <message>
         <location filename="../src/core/ircserverhandler.cpp" line="681"/>
@@ -4775,7 +4775,7 @@ Please choose another rule.</source>
     <message>
         <location filename="../src/core/ircserverhandler.cpp" line="934"/>
         <source>Topic for %1 is &quot;%2&quot;</source>
-        <translation>Тема канала %1 &quot;%2&quot;</translation>
+        <translation>Тема канала %1 «%2»</translation>
     </message>
     <message>
         <location filename="../src/core/ircserverhandler.cpp" line="945"/>
@@ -5747,7 +5747,7 @@ Please choose another rule.</source>
     <message>
         <location filename="../src/qtui/settingspages/networkssettingspage.cpp" line="528"/>
         <source>Do you really want to delete the network &quot;%1&quot; and all related settings, including the backlog?</source>
-        <translation>Действительно удалить сеть &quot;%1&quot; и все сопутствующие данные, включая журнал?</translation>
+        <translation>Действительно удалить сеть «%1» и все сопутствующие данные, включая журнал?</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/networkssettingspage.ui" line="13"/>
@@ -6934,7 +6934,7 @@ Unless you *really* know what you do, leave this as ISO-8859-1!</source>
     <message>
         <location filename="../src/uisupport/toolbaractionprovider.cpp" line="42"/>
         <source>Give voice to user</source>
-        <translation>Дать пользователю статус &quot;с голосом&quot;</translation>
+        <translation>Дать пользователю статус «с голосом»</translation>
     </message>
     <message>
         <location filename="../src/uisupport/toolbaractionprovider.cpp" line="43"/>
@@ -6944,7 +6944,7 @@ Unless you *really* know what you do, leave this as ISO-8859-1!</source>
     <message>
         <location filename="../src/uisupport/toolbaractionprovider.cpp" line="43"/>
         <source>Take voice from user</source>
-        <translation>Снять статус &quot;с голосом&quot; с пользователя</translation>
+        <translation>Снять статус «с голосом» с пользователя</translation>
     </message>
     <message>
         <location filename="../src/uisupport/toolbaractionprovider.cpp" line="44"/>

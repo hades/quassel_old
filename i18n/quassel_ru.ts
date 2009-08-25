@@ -150,19 +150,28 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>AppearanceSettingsPage</name>
     <message>
-        <location filename="../src/qtui/settingspages/appearancesettingspage.cpp" line="36"/>
         <source>Appearance</source>
-        <translation>Вид</translation>
+        <translation type="obsolete">Вид</translation>
     </message>
     <message>
         <source>General</source>
         <translation type="obsolete">Общие</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/appearancesettingspage.cpp" line="69"/>
+        <location filename="../src/qtui/settingspages/appearancesettingspage.cpp" line="32"/>
+        <source>Interface</source>
+        <translation>Интерфейс</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/appearancesettingspage.cpp" line="51"/>
         <location filename="../src/qtui/settingspages/appearancesettingspage.ui" line="46"/>
         <source>&lt;System Default&gt;</source>
         <translation>&lt;По умолчанию&gt;</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/appearancesettingspage.cpp" line="143"/>
+        <source>Please choose a stylesheet file</source>
+        <translation>Пожалуйста, выберите файл стилей</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/appearancesettingspage.ui" line="14"/>
@@ -220,80 +229,84 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../src/qtui/settingspages/appearancesettingspage.ui" line="62"/>
-        <source>Fonts</source>
-        <translation>Шрифты</translation>
-    </message>
-    <message>
-        <location filename="../src/qtui/settingspages/appearancesettingspage.ui" line="68"/>
-        <location filename="../src/qtui/settingspages/appearancesettingspage.ui" line="84"/>
-        <source>Set font for the main chat window and the chat monitor</source>
-        <translation>Задаёт шрифт главного окна чата и монитора чата</translation>
+        <source>Use Custom Stylesheet</source>
+        <translation>Свой файл стилей</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/appearancesettingspage.ui" line="71"/>
+        <source>/UiStyle/UseCustomStyleSheet</source>
+        <translation>/UiStyle/UseCustomStyleSheet</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/appearancesettingspage.ui" line="82"/>
+        <source>Path:</source>
+        <translation>Путь:</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/appearancesettingspage.ui" line="98"/>
+        <source>/UiStyle/CustomStyleSheetPath</source>
+        <translation>/UiStyle/CustomStyleSheetPath</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/appearancesettingspage.ui" line="108"/>
+        <source>...</source>
+        <translation>...</translation>
+    </message>
+    <message>
+        <source>Fonts</source>
+        <translation type="obsolete">Шрифты</translation>
+    </message>
+    <message>
+        <source>Set font for the main chat window and the chat monitor</source>
+        <translation type="obsolete">Задаёт шрифт главного окна чата и монитора чата</translation>
+    </message>
+    <message>
         <source>Chat window:</source>
-        <translation>Окно чата:</translation>
+        <translation type="obsolete">Окно чата:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/appearancesettingspage.ui" line="93"/>
-        <location filename="../src/qtui/settingspages/appearancesettingspage.ui" line="141"/>
-        <location filename="../src/qtui/settingspages/appearancesettingspage.ui" line="189"/>
         <source>Font</source>
-        <translation>Шрифт</translation>
+        <translation type="obsolete">Шрифт</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/appearancesettingspage.ui" line="109"/>
-        <location filename="../src/qtui/settingspages/appearancesettingspage.ui" line="157"/>
-        <location filename="../src/qtui/settingspages/appearancesettingspage.ui" line="205"/>
         <source>Choose...</source>
-        <translation>Выбрать...</translation>
+        <translation type="obsolete">Выбрать...</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/appearancesettingspage.ui" line="116"/>
-        <location filename="../src/qtui/settingspages/appearancesettingspage.ui" line="132"/>
         <source>Set font for channel and nick lists</source>
-        <translation>Задаёт шрифт списков каналов и ников</translation>
+        <translation type="obsolete">Задаёт шрифт списков каналов и ников</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/appearancesettingspage.ui" line="119"/>
         <source>Channel list:</source>
-        <translation>Список каналов:</translation>
+        <translation type="obsolete">Список каналов:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/appearancesettingspage.ui" line="164"/>
-        <location filename="../src/qtui/settingspages/appearancesettingspage.ui" line="180"/>
         <source>Set font for the input line</source>
-        <translation>Задаёт шрифт для строки ввода</translation>
+        <translation type="obsolete">Задаёт шрифт для строки ввода</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/appearancesettingspage.ui" line="167"/>
         <source>Input line:</source>
-        <translation>Строка ввода:</translation>
+        <translation type="obsolete">Строка ввода:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/appearancesettingspage.ui" line="215"/>
         <source>Misc</source>
-        <translation>Прочее</translation>
+        <translation type="obsolete">Прочее</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/appearancesettingspage.ui" line="221"/>
         <source>Show a website preview window when hovering the mouse over a web address</source>
-        <translation>Показывать предварительный просмотр вебсайта при наведении мышью на адрес</translation>
+        <translation type="obsolete">Показывать предварительный просмотр вебсайта при наведении мышью на адрес</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/appearancesettingspage.ui" line="224"/>
         <source>Show previews of webpages on URL hover</source>
-        <translation>Показывать эскиз вебсайта при наведении на URL</translation>
+        <translation type="obsolete">Показывать эскиз вебсайта при наведении на URL</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/appearancesettingspage.ui" line="234"/>
         <source>Show status icons in channel and nick lists</source>
-        <translation>Показывать значки статус в списках каналов и ников</translation>
+        <translation type="obsolete">Показывать значки статус в списках каналов и ников</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/appearancesettingspage.ui" line="237"/>
         <source>Use icons in channel and nick lists</source>
-        <translation>Использовать значки в списках</translation>
+        <translation type="obsolete">Использовать значки в списках</translation>
     </message>
 </context>
 <context>
@@ -331,29 +344,24 @@ p, li { white-space: pre-wrap; }
         <translation>Форма</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/backlogsettingspage.ui" line="75"/>
         <source>Backlog Request Method:</source>
-        <translation>Метод запроса журнала:</translation>
+        <translation type="obsolete">Метод запроса журнала:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/backlogsettingspage.ui" line="83"/>
         <source>Fixed Amount per Buffer</source>
-        <translation>Фиксированная длина для каждого буфера</translation>
+        <translation type="obsolete">Фиксированная длина для каждого буфера</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/backlogsettingspage.ui" line="88"/>
         <source>Unread Messages per Buffer</source>
-        <translation>Непрочитанные сообщения для каждого буфера</translation>
+        <translation type="obsolete">Непрочитанные сообщения для каждого буфера</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/backlogsettingspage.ui" line="93"/>
         <source>Global Unread Messages</source>
-        <translation>Глобальное количество непрочитанных сообщений</translation>
+        <translation type="obsolete">Глобальное количество непрочитанных сообщений</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/backlogsettingspage.ui" line="123"/>
         <source>The simplest Requester. It fetches a fixed amount of lines for each buffer from the Backlog.</source>
-        <translation>Простейший вариант. Запрашивает фиксированное количество строк для каждого буфера из журнала.</translation>
+        <translation type="obsolete">Простейший вариант. Запрашивает фиксированное количество строк для каждого буфера из журнала.</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/backlogsettingspage.ui" line="138"/>
@@ -426,14 +434,13 @@ You can also chose to fetch additional older chatlines to provide a better conte
         <translation>Динамический размер журнала:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/backlogsettingspage.ui" line="312"/>
         <source>This requester fetches all messages newer than the oldest unread message for all buffers.
 
 Note: this requester is not recommended if you use hidden buffer or have inactive buffers (i.e.: no stale queries or channels).
 It is useful to limit the total amount of the backlog and is probably the fastest.
 
 You can also chose to fetch additional older chatlines to provide a better context similar.</source>
-        <translation>Этот метод запрашивает для каждого буфера все сообщения новее чем самое старое непрочитанное сообщение.
+        <translation type="obsolete">Этот метод запрашивает для каждого буфера все сообщения новее чем самое старое непрочитанное сообщение.
 
 Примечание: этот метод не рекомендуется, при использовании скрытых или неактивных буферов (например, пустующих диалогов или каналов).
 Он полезен для ограничения общего размера журнала, и является, вероятно, самым быстрым.
@@ -441,9 +448,43 @@ You can also chose to fetch additional older chatlines to provide a better conte
 Также можно запрашивать дополнительные старые строки для лучшего контекста.</translation>
     </message>
     <message>
+        <location filename="../src/qtui/settingspages/backlogsettingspage.ui" line="75"/>
+        <source>Backlog request method:</source>
+        <translation>Метод запроса журнала:</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/backlogsettingspage.ui" line="83"/>
+        <source>Fixed amount per chat</source>
+        <translation>Фиксированная длина для каждого чата</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/backlogsettingspage.ui" line="88"/>
+        <source>Unread messages per chat</source>
+        <translation>Непрочитанные сообщения для каждого чата</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/backlogsettingspage.ui" line="93"/>
+        <source>Globally unread messages</source>
+        <translation>Глобальное количество непрочитанных сообщений</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/backlogsettingspage.ui" line="123"/>
+        <source>The simplest requester. It fetches a fixed amount of lines for each chat window from the backlog.</source>
+        <translation>Простейший вариант. Запрашивает фиксированное количество строк для каждого чата из журнала.</translation>
+    </message>
+    <message>
         <location filename="../src/qtui/settingspages/backlogsettingspage.ui" line="157"/>
         <source>FixedBacklogAmount</source>
         <translation>FixedBacklogAmount</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/backlogsettingspage.ui" line="199"/>
+        <source>This requester fetches unread messages for each chat window individually. The amount of lines can be limited per chat.
+
+You can also choose to fetch additional older chatlines to provide a better context.</source>
+        <translation>Этот метод запрашивает непрочитанные сообщения для каждого чата индивидуально. Количество строк может быть ограничено для каждого чата.
+
+Также можно запрашивать дополнительное количество старых строк для лучшего контекста.</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/backlogsettingspage.ui" line="238"/>
@@ -454,6 +495,21 @@ You can also chose to fetch additional older chatlines to provide a better conte
         <location filename="../src/qtui/settingspages/backlogsettingspage.ui" line="270"/>
         <source>PerBufferUnreadBacklogAdditional</source>
         <translation>PerBufferUnreadBacklogAdditional</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/backlogsettingspage.ui" line="312"/>
+        <source>This requester fetches all messages newer than the oldest unread message for all chats.
+
+Note: This requester is not recommended if you use hidden chat windows or have inactive chats (i.e.: no stale queries or channels).
+It is useful to limit the total amount of the backlog and is probably the fastest.
+
+You can also chose to fetch additional older chatlines to provide a better context.</source>
+        <translation>Этот метод запрашивает для каждого чата все сообщения новее, чем самое старое непрочитанное сообщение.
+
+Примечание: этот метод не рекомендуется при использовании скрытых или неактивных чатов (например, пустующих диалогов или каналов).
+Он полезен для ограничения общего размера журнала, и является, вероятно, самым быстрым.
+
+Также можно запрашивать дополнительные старые строки для лучшего контекста.</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/backlogsettingspage.ui" line="354"/>
@@ -476,11 +532,10 @@ You can also chose to fetch additional older chatlines to provide a better conte
         <translation>Прочее</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/backlogsettingspage.ui" line="199"/>
         <source>This requester fetches unread messages for each buffer individually. The amount of lines can be limited per buffer.
 
 You can also choose to fetch additional older chatlines to provide a better context.</source>
-        <translation>Этот метод запрашивает непрочитанные сообщения для каждого буфера индивидуально. Количество строк может быть ограничено для каждого буфера.
+        <translation type="obsolete">Этот метод запрашивает непрочитанные сообщения для каждого буфера индивидуально. Количество строк может быть ограничено для каждого буфера.
 
 Также можно запрашивать дополнительное количество старых строк для лучшего контекста.</translation>
     </message>
@@ -488,7 +543,7 @@ You can also choose to fetch additional older chatlines to provide a better cont
 <context>
     <name>BufferItem</name>
     <message>
-        <location filename="../src/client/networkmodel.cpp" line="326"/>
+        <location filename="../src/client/networkmodel.cpp" line="324"/>
         <source>&lt;p&gt; %1 - %2 &lt;/p&gt;</source>
         <translation>&lt;p&gt; %1 - %2 &lt;/p&gt;</translation>
     </message>
@@ -592,12 +647,12 @@ You can also choose to fetch additional older chatlines to provide a better cont
         <translation type="obsolete">Смены дня</translation>
     </message>
     <message>
-        <location filename="../src/uisupport/bufferview.cpp" line="256"/>
+        <location filename="../src/uisupport/bufferview.cpp" line="245"/>
         <source>Merge buffers permanently?</source>
         <translation>Произвести необратимое слияние буферов?</translation>
     </message>
     <message>
-        <location filename="../src/uisupport/bufferview.cpp" line="257"/>
+        <location filename="../src/uisupport/bufferview.cpp" line="246"/>
         <source>Do you want to merge the buffer &quot;%1&quot; permanently into buffer &quot;%2&quot;?
  This cannot be reversed!</source>
         <translation>Хотите ли вы слить буфер &quot;%1&quot; с буфером &quot;%2&quot;?
@@ -614,19 +669,27 @@ You can also choose to fetch additional older chatlines to provide a better cont
 <context>
     <name>BufferViewEditDlg</name>
     <message>
-        <location filename="../src/qtui/settingspages/buffervieweditdlg.ui" line="13"/>
+        <location filename="../src/qtui/settingspages/buffervieweditdlg.ui" line="14"/>
         <source>Dialog</source>
         <translation>Диалог</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/buffervieweditdlg.ui" line="21"/>
+        <location filename="../src/qtui/settingspages/buffervieweditdlg.ui" line="22"/>
+        <source>Please enter a name for the chat list:</source>
+        <translation>Пожалуйста введите названия нового списка чатов:</translation>
+    </message>
+    <message>
         <source>Please enter a name for the buffer view:</source>
-        <translation>Пожалуйста введите названия нового списка буферов:</translation>
+        <translation type="obsolete">Пожалуйста введите названия нового списка буферов:</translation>
+    </message>
+    <message>
+        <source>Add Buffer View</source>
+        <translation type="obsolete">Добавить список буферов</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/bufferviewsettingspage.cpp" line="520"/>
-        <source>Add Buffer View</source>
-        <translation>Добавить список буферов</translation>
+        <source>Add Chat List</source>
+        <translation>Добавить список чатов</translation>
     </message>
 </context>
 <context>
@@ -636,7 +699,7 @@ You can also choose to fetch additional older chatlines to provide a better cont
         <translation type="obsolete">Режим правки</translation>
     </message>
     <message>
-        <location filename="../src/uisupport/bufferviewfilter.cpp" line="54"/>
+        <location filename="../src/uisupport/bufferviewfilter.cpp" line="51"/>
         <source>Show / Hide buffers</source>
         <translation>Показать / спрятать буферы</translation>
     </message>
@@ -648,138 +711,177 @@ You can also choose to fetch additional older chatlines to provide a better cont
         <translation type="obsolete">Общие</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/bufferviewsettingspage.cpp" line="36"/>
         <source>Buffer Views</source>
-        <translation>Списки буферов</translation>
+        <translation type="obsolete">Списки буферов</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/bufferviewsettingspage.cpp" line="36"/>
+        <source>Misc</source>
+        <translation>Прочее</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/bufferviewsettingspage.cpp" line="36"/>
+        <source>Custom Chat Lists</source>
+        <translation>Свои списки чатов</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/bufferviewsettingspage.cpp" line="117"/>
-        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="99"/>
+        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="100"/>
         <source>All</source>
         <translation>Все</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/bufferviewsettingspage.cpp" line="342"/>
-        <source>Delete Buffer View?</source>
-        <translation>Удалить список буферов?</translation>
+        <source>Delete Chat List?</source>
+        <translation>Удалить список чатов?</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/bufferviewsettingspage.cpp" line="343"/>
-        <source>Do you really want to delete the buffer view &quot;%1&quot;?</source>
-        <translation>Вы действительно хотите удалить список буферов &quot;%1&quot;?</translation>
+        <source>Do you really want to delete the chat list &quot;%1&quot;?</source>
+        <translation>Действительно удалить список чатов &quot;%1&quot;?</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="13"/>
+        <source>Delete Buffer View?</source>
+        <translation type="obsolete">Удалить список буферов?</translation>
+    </message>
+    <message>
+        <source>Do you really want to delete the buffer view &quot;%1&quot;?</source>
+        <translation type="obsolete">Вы действительно хотите удалить список буферов &quot;%1&quot;?</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="14"/>
         <source>Form</source>
         <translation>Форма</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="30"/>
+        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="31"/>
         <source>Re&amp;name...</source>
         <translation>Пере&amp;именовать...</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="47"/>
+        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="48"/>
         <source>&amp;Add...</source>
         <translation>Доб&amp;авить...</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="70"/>
+        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="71"/>
         <source>De&amp;lete</source>
         <translation>У&amp;далить</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="83"/>
         <source>Buffer View  Settings</source>
-        <translation>Настройки списка буферов</translation>
+        <translation type="obsolete">Настройки списка буферов</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="91"/>
+        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="92"/>
         <source>Network:</source>
         <translation>Сеть:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="109"/>
         <source>Restrict Buffers to:</source>
-        <translation>Ограничить буфера:</translation>
+        <translation type="obsolete">Ограничить буфера:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="119"/>
         <source>Status Buffers</source>
-        <translation>Буфера состояния</translation>
+        <translation type="obsolete">Буфера состояния</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="126"/>
         <source>Channel Buffers</source>
-        <translation>Буфера каналов</translation>
+        <translation type="obsolete">Буфера каналов</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="133"/>
         <source>Query Buffers</source>
-        <translation>Буфера диалогов</translation>
+        <translation type="obsolete">Буфера диалогов</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="143"/>
         <source>Hide inactive Buffers</source>
-        <translation>Спрятать неактивные буфера</translation>
+        <translation type="obsolete">Спрятать неактивные буфера</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="150"/>
         <source>Add new Buffers automatically</source>
-        <translation>Автоматически добавлять новые буфера</translation>
+        <translation type="obsolete">Автоматически добавлять новые буфера</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="157"/>
+        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="84"/>
+        <source>Chat List Settings</source>
+        <translation>Настройки списка</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="114"/>
+        <source>Show status window</source>
+        <translation>Окно состояния</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="121"/>
+        <source>Show channels</source>
+        <translation>Каналы</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="128"/>
+        <source>Show queries</source>
+        <translation>Приваты</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="135"/>
+        <source>Hide inactive chats</source>
+        <translation>Прятать неактивные</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="142"/>
+        <source>Add new chats automatically</source>
+        <translation>Добавлять новые автоматически</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="149"/>
         <source>Sort alphabetically</source>
         <translation>Сортировать по алфавиту</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="164"/>
+        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="156"/>
         <source>Minimum Activity:</source>
         <translation>Минимальная активность:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="172"/>
+        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="164"/>
         <source>No Activity</source>
         <translation>Нет активности</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="177"/>
+        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="169"/>
         <source>Other Activity</source>
         <translation>Другая активность</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="182"/>
+        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="174"/>
         <source>New Message</source>
         <translation>Новое сообщение</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="187"/>
+        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="179"/>
         <source>Highlight</source>
         <translation>Подсветка</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="213"/>
+        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="205"/>
         <source>Preview:</source>
         <translation>Предварительный просмотр:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="115"/>
+        <location filename="../src/qtui/settingspages/bufferviewsettingspage.ui" line="110"/>
         <source>This option is not available when all Networks are visible.
 In this mode no separate status buffer is displayed.</source>
         <translation>Эта опция недоступна когда видны все сети.
 В этом режиме отдельные буфера состояния не отображаются.</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/bufferviewsettingspage.cpp" line="36"/>
         <source>Appearance</source>
-        <translation>Вид</translation>
+        <translation type="obsolete">Вид</translation>
     </message>
 </context>
 <context>
     <name>BufferViewWidget</name>
     <message>
-        <location filename="../src/qtui/ui/bufferviewwidget.ui" line="27"/>
+        <location filename="../src/qtui/ui/bufferviewwidget.ui" line="26"/>
         <source>BufferView</source>
         <translation>СписокБуферов</translation>
     </message>
@@ -842,32 +944,32 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>ChannelBufferItem</name>
     <message>
-        <location filename="../src/client/networkmodel.cpp" line="483"/>
+        <location filename="../src/client/networkmodel.cpp" line="481"/>
         <source>&lt;b&gt;Channel %1&lt;/b&gt;</source>
         <translation>&lt;b&gt;Канал %1&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../src/client/networkmodel.cpp" line="486"/>
+        <location filename="../src/client/networkmodel.cpp" line="484"/>
         <source>&lt;b&gt;Users:&lt;/b&gt; %1</source>
         <translation>&lt;b&gt;Пользователи:&lt;/b&gt; %1</translation>
     </message>
     <message>
-        <location filename="../src/client/networkmodel.cpp" line="490"/>
+        <location filename="../src/client/networkmodel.cpp" line="488"/>
         <source>&lt;b&gt;Mode:&lt;/b&gt; %1</source>
         <translation>&lt;b&gt;Режим:&lt;/b&gt; %1</translation>
     </message>
     <message>
-        <location filename="../src/client/networkmodel.cpp" line="501"/>
+        <location filename="../src/client/networkmodel.cpp" line="499"/>
         <source>&lt;b&gt;Topic:&lt;/b&gt; %1</source>
         <translation>&lt;b&gt;Тема:&lt;/b&gt; %1</translation>
     </message>
     <message>
-        <location filename="../src/client/networkmodel.cpp" line="505"/>
+        <location filename="../src/client/networkmodel.cpp" line="503"/>
         <source>Not active &lt;br /&gt; Double-click to join</source>
         <translation>Неактивно &lt;br /&gt; Дважды щёлкните чтобы войти</translation>
     </message>
     <message>
-        <location filename="../src/client/networkmodel.cpp" line="508"/>
+        <location filename="../src/client/networkmodel.cpp" line="506"/>
         <source>&lt;p&gt; %1 &lt;/p&gt;</source>
         <translation>&lt;p&gt; %1 &lt;/p&gt;</translation>
     </message>
@@ -938,6 +1040,11 @@ p, li { white-space: pre-wrap; }
         <translation>Монитор чата</translation>
     </message>
     <message>
+        <location filename="../src/qtui/settingspages/chatmonitorsettingspage.cpp" line="35"/>
+        <source>Interface</source>
+        <translation>Интерфейс</translation>
+    </message>
+    <message>
         <location filename="../src/qtui/settingspages/chatmonitorsettingspage.cpp" line="58"/>
         <source>Opt In</source>
         <translation>Белый список</translation>
@@ -949,7 +1056,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../src/qtui/settingspages/chatmonitorsettingspage.cpp" line="236"/>
-        <location filename="../src/qtui/settingspages/chatmonitorsettingspage.ui" line="132"/>
+        <location filename="../src/qtui/settingspages/chatmonitorsettingspage.ui" line="133"/>
         <source>Show:</source>
         <translation>Показывать:</translation>
     </message>
@@ -959,17 +1066,17 @@ p, li { white-space: pre-wrap; }
         <translation>Игнорировать:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/chatmonitorsettingspage.ui" line="13"/>
+        <location filename="../src/qtui/settingspages/chatmonitorsettingspage.ui" line="14"/>
         <source>Form</source>
         <translation>Форма</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/chatmonitorsettingspage.ui" line="21"/>
+        <location filename="../src/qtui/settingspages/chatmonitorsettingspage.ui" line="22"/>
         <source>Operation Mode:</source>
         <translation>Режим:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/chatmonitorsettingspage.ui" line="28"/>
+        <location filename="../src/qtui/settingspages/chatmonitorsettingspage.ui" line="29"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -980,39 +1087,42 @@ p, li { white-space: pre-wrap; }
         <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;p, li { white-space: pre-wrap; }&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Режимы:&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;&quot;&gt;&lt;span style=&quot; font-weight:400; text-decoration: underline;&quot;&gt;Белый список:&lt;/span&gt; &lt;span style=&quot; font-weight:400;&quot;&gt;В мониторе чата отображаются только буферы из списка справа.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;Opt-Out:&lt;/span&gt;Буферы из списка справа монитором чата игнорируются.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/chatmonitorsettingspage.ui" line="60"/>
         <source>Available Buffers:</source>
-        <translation>Доступные буферы:</translation>
+        <translation type="obsolete">Доступные буферы:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/chatmonitorsettingspage.ui" line="87"/>
+        <location filename="../src/qtui/settingspages/chatmonitorsettingspage.ui" line="61"/>
+        <source>Available:</source>
+        <translation>Доступные:</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatmonitorsettingspage.ui" line="88"/>
         <source>Move selected buffers to the left</source>
         <translation>Переместить выбранные буферы влево</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/chatmonitorsettingspage.ui" line="101"/>
+        <location filename="../src/qtui/settingspages/chatmonitorsettingspage.ui" line="102"/>
         <source>Move selected buffers to the right</source>
         <translation>Переместить выбранные буферы вправо</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/chatmonitorsettingspage.ui" line="146"/>
+        <location filename="../src/qtui/settingspages/chatmonitorsettingspage.ui" line="147"/>
         <source>Show highlights in chatmonitor even if the originating buffer is ignored</source>
         <translation>Показывать подсвеченные сообщения даже если их буфер игнорируется</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/chatmonitorsettingspage.ui" line="149"/>
+        <location filename="../src/qtui/settingspages/chatmonitorsettingspage.ui" line="150"/>
         <source>Always show highlighted messages</source>
         <translation>Всегда показывать подсвеченные сообщения</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/chatmonitorsettingspage.ui" line="156"/>
+        <location filename="../src/qtui/settingspages/chatmonitorsettingspage.ui" line="157"/>
         <source>Show own messages</source>
         <translation>Показывать свои сообщения</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/chatmonitorsettingspage.cpp" line="35"/>
         <source>Appearance</source>
-        <translation>Вид</translation>
+        <translation type="obsolete">Вид</translation>
     </message>
 </context>
 <context>
@@ -1030,22 +1140,22 @@ p, li { white-space: pre-wrap; }
         <translation type="obsolete">Показывать название буфера</translation>
     </message>
     <message>
-        <location filename="../src/qtui/chatmonitorview.cpp" line="50"/>
+        <location filename="../src/qtui/chatmonitorview.cpp" line="52"/>
         <source>Show Own Messages</source>
         <translation>Показывать свои сообщения</translation>
     </message>
     <message>
-        <location filename="../src/qtui/chatmonitorview.cpp" line="57"/>
+        <location filename="../src/qtui/chatmonitorview.cpp" line="59"/>
         <source>Show Network Name</source>
         <translation>Показывать название сети</translation>
     </message>
     <message>
-        <location filename="../src/qtui/chatmonitorview.cpp" line="62"/>
+        <location filename="../src/qtui/chatmonitorview.cpp" line="64"/>
         <source>Show Buffer Name</source>
         <translation>Показывать название буфера</translation>
     </message>
     <message>
-        <location filename="../src/qtui/chatmonitorview.cpp" line="69"/>
+        <location filename="../src/qtui/chatmonitorview.cpp" line="71"/>
         <source>Configure...</source>
         <translation>Настроить...</translation>
     </message>
@@ -1053,7 +1163,7 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>ChatScene</name>
     <message>
-        <location filename="../src/qtui/chatscene.cpp" line="583"/>
+        <location filename="../src/qtui/chatscene.cpp" line="604"/>
         <source>Copy Selection</source>
         <translation>Скопировать выделение</translation>
     </message>
@@ -1094,16 +1204,334 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
+    <name>ChatViewSettingsPage</name>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.cpp" line="27"/>
+        <source>Interface</source>
+        <translation>Интерфейс</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.cpp" line="27"/>
+        <source>Chat View</source>
+        <translation>Окно чата</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="14"/>
+        <source>Form</source>
+        <translation>Форма</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="22"/>
+        <source>Timestamp format:</source>
+        <translation>Формат времени:</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="32"/>
+        <source>[hh:mm:ss]</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="35"/>
+        <source>TimestampFormat</source>
+        <translation>TimestampFormat</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="59"/>
+        <source>Custom chat window font:</source>
+        <translation>Свой шрифт окна чата:</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="65"/>
+        <source>/QtUiStyle/Fonts/UseCustomChatViewFont</source>
+        <translation>/QtUiStyle/Fonts/UseCustomChatViewFont</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="78"/>
+        <source>/QtUiStyle/Fonts/ChatView</source>
+        <translation>/QtUiStyle/Fonts/ChatView</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="92"/>
+        <source>Allow colored text (mIRC color codes)</source>
+        <translation>Включить цвета (цветовые коды mIRC)</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="101"/>
+        <source>AllowMircColors</source>
+        <translation>AllowMircColors</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="108"/>
+        <source>Show a website preview window when hovering the mouse over a web address</source>
+        <translation>Показывать предварительный просмотр вебсайта при наведении мышью на адрес</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="111"/>
+        <source>Show previews of webpages on URL hover</source>
+        <translation>Показывать эскиз вебсайта при наведении на URL</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="120"/>
+        <source>ShowWebPreview</source>
+        <translation>ShowWebPreview</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="127"/>
+        <source>Custom Colors</source>
+        <translation>Свои цвета</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="136"/>
+        <source>/QtUiStyle/Colors/UseChatViewColors</source>
+        <translation>/QtUiStyle/Colors/UseChatViewColors</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="145"/>
+        <source>Action:</source>
+        <translation>Действие:</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="152"/>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="176"/>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="200"/>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="237"/>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="261"/>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="292"/>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="316"/>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="340"/>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="364"/>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="381"/>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="421"/>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="438"/>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="455"/>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="472"/>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="489"/>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="506"/>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="523"/>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="540"/>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="557"/>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="574"/>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="591"/>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="608"/>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="625"/>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="642"/>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="659"/>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="676"/>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="704"/>
+        <source>...</source>
+        <translation>...</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="155"/>
+        <source>/QtUiStyle/Colors/ActionMsg</source>
+        <translation>/QtUiStyle/Colors/ActionMsg</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="169"/>
+        <source>Timestamp:</source>
+        <translation>Время:</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="179"/>
+        <source>/QtUiStyle/Colors/Timestamp</source>
+        <translation>/QtUiStyle/Colors/Timestamp</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="193"/>
+        <source>Channel message:</source>
+        <translation>Сообщение:</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="203"/>
+        <source>/QtUiStyle/Colors/ChannelMsg</source>
+        <translation>/QtUiStyle/Colors/ChannelMsg</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="230"/>
+        <source>Highlight foreground:</source>
+        <translation>Подсвеченный текст:</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="240"/>
+        <source>/QtUiStyle/Colors/Highlight</source>
+        <translation>/QtUiStyle/Colors/Highlight</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="254"/>
+        <source>Command message:</source>
+        <translation>Сообщение команды:</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="264"/>
+        <source>/QtUiStyle/Colors/CommandMsg</source>
+        <translation>/QtUiStyle/Colors/CommandMsg</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="278"/>
+        <source>Highlight background:</source>
+        <translation>Подсвеченный фон:</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="285"/>
+        <source>Server message:</source>
+        <translation>Сообщение сервера:</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="295"/>
+        <source>/QtUiStyle/Colors/ServerMsg</source>
+        <translation>/QtUiStyle/Colors/ServerMsg</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="309"/>
+        <source>Marker line:</source>
+        <translation>Линия-маркер:</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="319"/>
+        <source>/QtUiStyle/Colors/MarkerLine</source>
+        <translation>/QtUiStyle/Colors/MarkerLine</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="333"/>
+        <source>Error message:</source>
+        <translation>Ошибка:</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="343"/>
+        <source>/QtUiStyle/Colors/ErrorMsg</source>
+        <translation>/QtUiStyle/Colors/ErrorMsg</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="357"/>
+        <source>Background:</source>
+        <translation>Фон:</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="367"/>
+        <source>/QtUiStyle/Colors/ChatViewBackground</source>
+        <translation>/QtUiStyle/Colors/ChatViewBackground</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="384"/>
+        <source>/QtUiStyle/Colors/HighlightBackground</source>
+        <translation>/QtUiStyle/Colors/HighlightBackground</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="401"/>
+        <source>Use Sender Coloring</source>
+        <translation>Использовать цвет отправителя</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="410"/>
+        <source>/QtUiStyle/Colors/UseSenderColors</source>
+        <translation>/QtUiStyle/Colors/UseSenderColors</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="424"/>
+        <source>/QtUiStyle/Colors/Sender00</source>
+        <translation>/QtUiStyle/Colors/Sender00</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="441"/>
+        <source>/QtUiStyle/Colors/Sender02</source>
+        <translation>/QtUiStyle/Colors/Sender02</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="458"/>
+        <source>/QtUiStyle/Colors/Sender04</source>
+        <translation>/QtUiStyle/Colors/Sender04</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="475"/>
+        <source>/QtUiStyle/Colors/Sender05</source>
+        <translation>/QtUiStyle/Colors/Sender05</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="492"/>
+        <source>/QtUiStyle/Colors/Sender06</source>
+        <translation>/QtUiStyle/Colors/Sender06</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="509"/>
+        <source>/QtUiStyle/Colors/Sender07</source>
+        <translation>/QtUiStyle/Colors/Sender07</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="526"/>
+        <source>/QtUiStyle/Colors/Sender08</source>
+        <translation>/QtUiStyle/Colors/Sender08</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="543"/>
+        <source>/QtUiStyle/Colors/Sender09</source>
+        <translation>/QtUiStyle/Colors/Sender09</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="560"/>
+        <source>/QtUiStyle/Colors/Sender10</source>
+        <translation>/QtUiStyle/Colors/Sender10</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="577"/>
+        <source>/QtUiStyle/Colors/Sender11</source>
+        <translation>/QtUiStyle/Colors/Sender11</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="594"/>
+        <source>/QtUiStyle/Colors/Sender12</source>
+        <translation>/QtUiStyle/Colors/Sender12</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="611"/>
+        <source>/QtUiStyle/Colors/Sender13</source>
+        <translation>/QtUiStyle/Colors/Sender13</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="628"/>
+        <source>/QtUiStyle/Colors/Sender14</source>
+        <translation>/QtUiStyle/Colors/Sender14</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="645"/>
+        <source>/QtUiStyle/Colors/Sender15</source>
+        <translation>/QtUiStyle/Colors/Sender15</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="662"/>
+        <source>/QtUiStyle/Colors/Sender01</source>
+        <translation>/QtUiStyle/Colors/Sender01</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="679"/>
+        <source>/QtUiStyle/Colors/Sender03</source>
+        <translation>/QtUiStyle/Colors/Sender03</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="697"/>
+        <source>Own messages:</source>
+        <translation>Свои сообщения:</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/chatviewsettingspage.ui" line="707"/>
+        <source>/QtUiStyle/Colors/SenderSelf</source>
+        <translation>/QtUiStyle/Colors/SenderSelf</translation>
+    </message>
+</context>
+<context>
     <name>Client</name>
     <message>
-        <location filename="../src/client/client.cpp" line="268"/>
+        <location filename="../src/client/client.cpp" line="270"/>
         <source>Identity already exists in client!</source>
         <translation>Личность уже есть в клиенте!</translation>
     </message>
     <message>
-        <location filename="../src/client/client.cpp" line="362"/>
+        <location filename="../src/client/client.cpp" line="369"/>
+        <source>All Chats</source>
+        <translation>Все чаты</translation>
+    </message>
+    <message>
         <source>All Buffers</source>
-        <translation>Все буфера</translation>
+        <translation type="obsolete">Все буфера</translation>
     </message>
     <message>
         <source>Default Identity</source>
@@ -1113,7 +1541,7 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>ClientBacklogManager</name>
     <message>
-        <location filename="../src/client/clientbacklogmanager.cpp" line="152"/>
+        <location filename="../src/client/clientbacklogmanager.cpp" line="153"/>
         <source>Processed %1 messages in %2 seconds.</source>
         <translation>Обработано сообщений: %1. Затрачено секунд: %2.</translation>
     </message>
@@ -1169,339 +1597,264 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>ColorSettingsPage</name>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.cpp" line="32"/>
         <source>Appearance</source>
-        <translation>Вид</translation>
+        <translation type="obsolete">Вид</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.cpp" line="32"/>
         <source>Color settings</source>
-        <translation>Настройки цвета</translation>
+        <translation type="obsolete">Настройки цвета</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="19"/>
         <source>Form</source>
-        <translation>Форма</translation>
+        <translation type="obsolete">Форма</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="29"/>
         <source>Bufferview</source>
-        <translation>Список буферов</translation>
+        <translation type="obsolete">Список буферов</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="35"/>
         <source>Activities:</source>
-        <translation>Активности:</translation>
+        <translation type="obsolete">Активности:</translation>
     </message>
     <message>
         <source>FG</source>
         <translation type="obsolete">Текст</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="51"/>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1734"/>
         <source>BG</source>
-        <translation>Фон</translation>
+        <translation type="obsolete">Фон</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="64"/>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="404"/>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="648"/>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1026"/>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1747"/>
         <source>Use BG</source>
-        <translation>Использовать фон</translation>
+        <translation type="obsolete">Использовать фон</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="77"/>
         <source>Default:</source>
-        <translation>По умолчанию:</translation>
+        <translation type="obsolete">По умолчанию:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="126"/>
         <source>Inactive:</source>
-        <translation>Неактивно:</translation>
+        <translation type="obsolete">Неактивно:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="172"/>
         <source>Highlight:</source>
-        <translation>Подсветка:</translation>
+        <translation type="obsolete">Подсветка:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="215"/>
         <source>New Message:</source>
-        <translation>Новое сообщение:</translation>
+        <translation type="obsolete">Новое сообщение:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="258"/>
         <source>Other Activity:</source>
-        <translation>Другая активность:</translation>
+        <translation type="obsolete">Другая активность:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="317"/>
         <source>Preview:</source>
-        <translation>Предварительный просмотр:</translation>
+        <translation type="obsolete">Предварительный просмотр:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="324"/>
         <source>1</source>
-        <translation>1</translation>
+        <translation type="obsolete">1</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="349"/>
         <source>Chatview</source>
-        <translation>Окно чата</translation>
+        <translation type="obsolete">Окно чата</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="365"/>
         <source>Server Activity</source>
-        <translation>Активность сервера</translation>
+        <translation type="obsolete">Активность сервера</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="41"/>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="384"/>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="625"/>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1003"/>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1724"/>
         <source>Foreground</source>
-        <translation>Текст</translation>
+        <translation type="obsolete">Текст</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="394"/>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="635"/>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1013"/>
         <source>Background</source>
-        <translation>Фон</translation>
+        <translation type="obsolete">Фон</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="417"/>
         <source>Error Message:</source>
-        <translation>Сообщение об ошибке:</translation>
+        <translation type="obsolete">Сообщение об ошибке:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="463"/>
         <source>Notice Message:</source>
-        <translation>Уведомление:</translation>
+        <translation type="obsolete">Уведомление:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="509"/>
         <source>Plain Message:</source>
-        <translation>Простое сообщение:</translation>
+        <translation type="obsolete">Простое сообщение:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="555"/>
         <source>Server Message:</source>
-        <translation>Сообщение сервера:</translation>
+        <translation type="obsolete">Сообщение сервера:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="601"/>
         <source>Highlight Message:</source>
-        <translation>Подсвеченное сообщение:</translation>
+        <translation type="obsolete">Подсвеченное сообщение:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="619"/>
         <source>User Activity</source>
-        <translation>Пользовательская активность</translation>
+        <translation type="obsolete">Пользовательская активность</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="661"/>
         <source>Action Message:</source>
-        <translation>Сообщение о действии:</translation>
+        <translation type="obsolete">Сообщение о действии:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="707"/>
         <source>Join Message:</source>
-        <translation>Сообщение о входе:</translation>
+        <translation type="obsolete">Сообщение о входе:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="753"/>
         <source>Kick Message:</source>
-        <translation>Сообщение об изгнании:</translation>
+        <translation type="obsolete">Сообщение об изгнании:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="799"/>
         <source>Mode Message:</source>
-        <translation>Сообщение о смене режима:</translation>
+        <translation type="obsolete">Сообщение о смене режима:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="845"/>
         <source>Part Message:</source>
-        <translation>Сообщение об уходе:</translation>
+        <translation type="obsolete">Сообщение об уходе:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="891"/>
         <source>Quit Message:</source>
-        <translation>Сообщение о выходе:</translation>
+        <translation type="obsolete">Сообщение о выходе:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="937"/>
         <source>Rename Message:</source>
-        <translation>Сообщение о переименовании:</translation>
+        <translation type="obsolete">Сообщение о переименовании:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="997"/>
         <source>Message</source>
-        <translation>Сообщение</translation>
+        <translation type="obsolete">Сообщение</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1039"/>
         <source>Timestamp:</source>
-        <translation>Время:</translation>
+        <translation type="obsolete">Время:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1085"/>
         <source>Sender:</source>
-        <translation>Отправитель:</translation>
+        <translation type="obsolete">Отправитель:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1092"/>
         <source>Nick:</source>
-        <translation>Ник:</translation>
+        <translation type="obsolete">Ник:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1144"/>
         <source>Hostmask:</source>
-        <translation>Маска:</translation>
+        <translation type="obsolete">Маска:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1196"/>
         <source>Channelname:</source>
-        <translation>Канал:</translation>
+        <translation type="obsolete">Канал:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1248"/>
         <source>Mode flags:</source>
-        <translation>Режимы:</translation>
+        <translation type="obsolete">Режимы:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1300"/>
         <source>Url:</source>
-        <translation>Адрес:</translation>
+        <translation type="obsolete">Адрес:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1352"/>
         <source>New Message Marker:</source>
-        <translation>Маркер новых сообщений:</translation>
+        <translation type="obsolete">Маркер новых сообщений:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1453"/>
         <source>Mirc Color Codes</source>
-        <translation>Цвета mIRC</translation>
+        <translation type="obsolete">Цвета mIRC</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1465"/>
         <source>Color Codes</source>
-        <translation>Цвета</translation>
+        <translation type="obsolete">Цвета</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1471"/>
         <source>Color 0:</source>
-        <translation>Цвет 0:</translation>
+        <translation type="obsolete">Цвет 0:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1492"/>
         <source>Color 1:</source>
-        <translation>Цвет 1:</translation>
+        <translation type="obsolete">Цвет 1:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1513"/>
         <source>Color 2:</source>
-        <translation>Цвет 2:</translation>
+        <translation type="obsolete">Цвет 2:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1534"/>
         <source>Color 3:</source>
-        <translation>Цвет 3:</translation>
+        <translation type="obsolete">Цвет 3:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1555"/>
         <source>Color 4:</source>
-        <translation>Цвет 4:</translation>
+        <translation type="obsolete">Цвет 4:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1576"/>
         <source>Color 5:</source>
-        <translation>Цвет 5:</translation>
+        <translation type="obsolete">Цвет 5:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1597"/>
         <source>Color 6:</source>
-        <translation>Цвет 6:</translation>
+        <translation type="obsolete">Цвет 6:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1618"/>
         <source>Color 7:</source>
-        <translation>Цвет 7:</translation>
+        <translation type="obsolete">Цвет 7:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1639"/>
         <source>Color 8:</source>
-        <translation>Цвет 8:</translation>
+        <translation type="obsolete">Цвет 8:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1646"/>
         <source>Color 14:</source>
-        <translation>Цвет 14:</translation>
+        <translation type="obsolete">Цвет 14:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1653"/>
         <source>Color 15:</source>
-        <translation>Цвет 15:</translation>
+        <translation type="obsolete">Цвет 15:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1660"/>
         <source>Color 13:</source>
-        <translation>Цвет 13:</translation>
+        <translation type="obsolete">Цвет 13:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1667"/>
         <source>Color 12:</source>
-        <translation>Цвет 12:</translation>
+        <translation type="obsolete">Цвет 12:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1674"/>
         <source>Color 11:</source>
-        <translation>Цвет 11:</translation>
+        <translation type="obsolete">Цвет 11:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1681"/>
         <source>Color 10:</source>
-        <translation>Цвет 10:</translation>
+        <translation type="obsolete">Цвет 10:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1688"/>
         <source>Color 9:</source>
-        <translation>Цвет 9:</translation>
+        <translation type="obsolete">Цвет 9:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1712"/>
         <source>Nickview</source>
-        <translation>Список  ников</translation>
+        <translation type="obsolete">Список  ников</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1718"/>
         <source>Nick status:</source>
-        <translation>Состояние ника:</translation>
+        <translation type="obsolete">Состояние ника:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1760"/>
         <source>Online:</source>
-        <translation>Онлайн:</translation>
+        <translation type="obsolete">Онлайн:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1806"/>
         <source>Away:</source>
-        <translation>Отсутствует:</translation>
+        <translation type="obsolete">Отсутствует:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1366"/>
         <source>Enable</source>
-        <translation>Включено</translation>
+        <translation type="obsolete">Включено</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/colorsettingspage.ui" line="1373"/>
         <source>Sender auto coloring:</source>
-        <translation>Автоматическая раскраска отправителя:</translation>
+        <translation type="obsolete">Автоматическая раскраска отправителя:</translation>
     </message>
 </context>
 <context>
@@ -1509,80 +1862,80 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/qtui/settingspages/connectionsettingspage.cpp" line="27"/>
         <source>Misc</source>
-        <translation type="unfinished">Прочее</translation>
+        <translation>Прочее</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/connectionsettingspage.cpp" line="27"/>
         <source>Connection</source>
-        <translation type="unfinished">Соединения</translation>
+        <translation>Соединения</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/connectionsettingspage.ui" line="14"/>
         <source>Configure the IRC Connection</source>
-        <translation type="unfinished"></translation>
+        <translation>Настройка соединений IRC</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/connectionsettingspage.ui" line="20"/>
         <source>Enable Ping Timeout Detection</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматически определять ping timeout</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/connectionsettingspage.ui" line="37"/>
         <source>Ping interval:</source>
-        <translation type="unfinished"></translation>
+        <translation>Интервал:</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/connectionsettingspage.ui" line="44"/>
         <location filename="../src/qtui/settingspages/connectionsettingspage.ui" line="155"/>
         <location filename="../src/qtui/settingspages/connectionsettingspage.ui" line="213"/>
         <source> seconds</source>
-        <translation type="unfinished"></translation>
+        <translation> секунд</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/connectionsettingspage.ui" line="80"/>
         <source>Disconnect after</source>
-        <translation type="unfinished"></translation>
+        <translation>Отсоединить после пропущенных пингов:</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/connectionsettingspage.ui" line="103"/>
         <source>missed pings</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/connectionsettingspage.ui" line="128"/>
         <source>This enables periodic polling of user information using /WHO. This is mostly interesting for tracking users&apos; away status.</source>
-        <translation type="unfinished"></translation>
+        <translation>Включается автоматический опрос информации о пользователях командой /WHO. Интереснее всего, что так отслеживается состояние отсутствия пользователя.</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/connectionsettingspage.ui" line="131"/>
         <source>Enable Automatic User Information Lookup (/WHO)</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматически запрашивать информацию (/WHO)</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/connectionsettingspage.ui" line="148"/>
         <source>Update interval:</source>
-        <translation type="unfinished"></translation>
+        <translation>Интервал обновления:</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/connectionsettingspage.ui" line="177"/>
         <source>Ignore channels with more than:</source>
-        <translation type="unfinished"></translation>
+        <translation>Игнорировать каналы с более:</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/connectionsettingspage.ui" line="184"/>
         <source> users</source>
-        <translation type="unfinished"></translation>
+        <translation> ников</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/connectionsettingspage.ui" line="206"/>
         <source>Minimum delay between requests:</source>
-        <translation type="unfinished"></translation>
+        <translation>Минимальная задержка:</translation>
     </message>
 </context>
 <context>
     <name>ContentsChatItem</name>
     <message>
-        <location filename="../src/qtui/chatitem.cpp" line="611"/>
+        <location filename="../src/qtui/chatitem.cpp" line="599"/>
         <source>Copy Link Address</source>
         <translation>Скопировать адрес ссылки</translation>
     </message>
@@ -1652,7 +2005,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/uisupport/contextmenuactionprovider.cpp" line="49"/>
         <source>Topic Changes</source>
-        <translation type="unfinished"></translation>
+        <translation>Изменения темы</translation>
     </message>
     <message>
         <location filename="../src/uisupport/contextmenuactionprovider.cpp" line="50"/>
@@ -1890,7 +2243,7 @@ to work.</source>
     <message>
         <location filename="../src/core/core.cpp" line="702"/>
         <source>Could not find a session for client:</source>
-        <translation type="unfinished"></translation>
+        <translation>Не смог найти сеанс для клиента:</translation>
     </message>
     <message>
         <location filename="../src/core/core.cpp" line="384"/>
@@ -2554,22 +2907,22 @@ SOME SPACE</translation>
         <translation type="obsolete">Личность по умолчанию</translation>
     </message>
     <message>
-        <location filename="../src/core/coresession.cpp" line="190"/>
+        <location filename="../src/core/coresession.cpp" line="192"/>
         <source>Client</source>
         <translation>Клиент</translation>
     </message>
     <message>
-        <location filename="../src/core/coresession.cpp" line="190"/>
+        <location filename="../src/core/coresession.cpp" line="192"/>
         <source>disconnected (UserId: %1).</source>
         <translation>отсоединён (UserId: %1).</translation>
     </message>
     <message>
-        <location filename="../src/core/coresession.cpp" line="370"/>
+        <location filename="../src/core/coresession.cpp" line="384"/>
         <source>CoreSession::createNetwork(): Got invalid networkId from Core when trying to create network %1!</source>
         <translation>CoreSession::createNetwork(): Получен неверный networkId от ядра, пытаясь создать сеть %1!</translation>
     </message>
     <message>
-        <location filename="../src/core/coresession.cpp" line="401"/>
+        <location filename="../src/core/coresession.cpp" line="415"/>
         <source>CoreSession::createNetwork(): Trying to create a network that already exists, updating instead!</source>
         <translation>CoreSession::createNetwork(): Попытался создать уже существующую сеть, вместо этого обновляю!</translation>
     </message>
@@ -2817,96 +3170,74 @@ SOME SPACE</translation>
     </message>
 </context>
 <context>
-    <name>FontsSettingsPage</name>
+    <name>FontSelector</name>
     <message>
-        <location filename="../src/qtui/settingspages/fontssettingspage.cpp" line="30"/>
-        <source>Appearance</source>
-        <translation>Вид</translation>
-    </message>
-    <message>
-        <location filename="../src/qtui/settingspages/fontssettingspage.cpp" line="30"/>
-        <source>Fonts</source>
-        <translation>Шрифты</translation>
-    </message>
-    <message>
-        <location filename="../src/qtui/settingspages/fontssettingspage.ui" line="13"/>
-        <source>Form</source>
-        <translation>Форма</translation>
-    </message>
-    <message>
-        <location filename="../src/qtui/settingspages/fontssettingspage.ui" line="24"/>
-        <source>Custom Application Fonts</source>
-        <translation>Пользовательские шрифты</translation>
-    </message>
-    <message>
-        <location filename="../src/qtui/settingspages/fontssettingspage.ui" line="53"/>
-        <location filename="../src/qtui/settingspages/fontssettingspage.ui" line="104"/>
-        <location filename="../src/qtui/settingspages/fontssettingspage.ui" line="158"/>
-        <location filename="../src/qtui/settingspages/fontssettingspage.ui" line="212"/>
-        <location filename="../src/qtui/settingspages/fontssettingspage.ui" line="254"/>
-        <location filename="../src/qtui/settingspages/fontssettingspage.ui" line="322"/>
-        <location filename="../src/qtui/settingspages/fontssettingspage.ui" line="357"/>
-        <location filename="../src/qtui/settingspages/fontssettingspage.ui" line="392"/>
-        <source>Font</source>
-        <translation>Шрифт</translation>
-    </message>
-    <message>
-        <location filename="../src/qtui/settingspages/fontssettingspage.ui" line="72"/>
-        <location filename="../src/qtui/settingspages/fontssettingspage.ui" line="123"/>
-        <location filename="../src/qtui/settingspages/fontssettingspage.ui" line="177"/>
-        <location filename="../src/qtui/settingspages/fontssettingspage.ui" line="231"/>
-        <location filename="../src/qtui/settingspages/fontssettingspage.ui" line="273"/>
-        <location filename="../src/qtui/settingspages/fontssettingspage.ui" line="338"/>
-        <location filename="../src/qtui/settingspages/fontssettingspage.ui" line="373"/>
-        <location filename="../src/qtui/settingspages/fontssettingspage.ui" line="408"/>
+        <location filename="../src/uisupport/fontselector.cpp" line="31"/>
         <source>Choose...</source>
         <translation>Выбрать...</translation>
     </message>
+</context>
+<context>
+    <name>FontsSettingsPage</name>
     <message>
-        <location filename="../src/qtui/settingspages/fontssettingspage.ui" line="82"/>
+        <source>Appearance</source>
+        <translation type="obsolete">Вид</translation>
+    </message>
+    <message>
+        <source>Fonts</source>
+        <translation type="obsolete">Шрифты</translation>
+    </message>
+    <message>
+        <source>Form</source>
+        <translation type="obsolete">Форма</translation>
+    </message>
+    <message>
+        <source>Custom Application Fonts</source>
+        <translation type="obsolete">Пользовательские шрифты</translation>
+    </message>
+    <message>
+        <source>Font</source>
+        <translation type="obsolete">Шрифт</translation>
+    </message>
+    <message>
+        <source>Choose...</source>
+        <translation type="obsolete">Выбрать...</translation>
+    </message>
+    <message>
         <source>Topic:</source>
-        <translation>Тема:</translation>
+        <translation type="obsolete">Тема:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/fontssettingspage.ui" line="133"/>
         <source>Buffer Views:</source>
-        <translation>Списки буферов:</translation>
+        <translation type="obsolete">Списки буферов:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/fontssettingspage.ui" line="187"/>
         <source>Nick List:</source>
-        <translation>Список ников:</translation>
+        <translation type="obsolete">Список ников:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/fontssettingspage.ui" line="238"/>
         <source>Inputline:</source>
-        <translation>Строка ввода:</translation>
+        <translation type="obsolete">Строка ввода:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/fontssettingspage.ui" line="283"/>
-        <location filename="../src/qtui/settingspages/fontssettingspage.ui" line="303"/>
         <source>General:</source>
-        <translation>Общий:</translation>
+        <translation type="obsolete">Общий:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/fontssettingspage.ui" line="295"/>
         <source>Chat Widget</source>
-        <translation>Виджет чата</translation>
+        <translation type="obsolete">Виджет чата</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/fontssettingspage.ui" line="415"/>
         <source>Nicks:</source>
-        <translation>Ники:</translation>
+        <translation type="obsolete">Ники:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/fontssettingspage.ui" line="425"/>
         <source>Timestamp:</source>
-        <translation>Время:</translation>
+        <translation type="obsolete">Время:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/fontssettingspage.ui" line="445"/>
         <source>Some of these settings require a restart of the Quassel Client in order to take effect. We intend to fix this.</source>
-        <translation>Некоторые из этих настроек требуют перезапуска клиента Quassel. Мы планируем исправить это.</translation>
+        <translation type="obsolete">Некоторые из этих настроек требуют перезапуска клиента Quassel. Мы планируем исправить это.</translation>
     </message>
 </context>
 <context>
@@ -2969,34 +3300,28 @@ SOME SPACE</translation>
         <translation>Прятать в трей при закрытии</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/generalsettingspage.ui" line="193"/>
         <source>Buffer View</source>
-        <translation>Список буферов</translation>
+        <translation type="obsolete">Список буферов</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/generalsettingspage.ui" line="199"/>
         <source>Display topic in tooltip</source>
-        <translation>Показывать тему во всплывающей подсказке</translation>
+        <translation type="obsolete">Показывать тему во всплывающей подсказке</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/generalsettingspage.ui" line="206"/>
         <source>Mouse wheel changes displayed buffers</source>
-        <translation>Изменять отображаемые буфера колёсиком мыши</translation>
+        <translation type="obsolete">Изменять отображаемые буфера колёсиком мыши</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/generalsettingspage.ui" line="219"/>
         <source>The suffix appended to a nick on completion via TAB. Default is &quot;: &quot;</source>
-        <translation>Суффикс, добавляемый к нику при автодополнении клавишей TAB. По умолчанию &quot;: &quot;</translation>
+        <translation type="obsolete">Суффикс, добавляемый к нику при автодополнении клавишей TAB. По умолчанию &quot;: &quot;</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/generalsettingspage.ui" line="222"/>
         <source>Input Line</source>
-        <translation>Строка ввода</translation>
+        <translation type="obsolete">Строка ввода</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/generalsettingspage.ui" line="230"/>
         <source>Completion suffix:</source>
-        <translation>Суффикс автодополнения:</translation>
+        <translation type="obsolete">Суффикс автодополнения:</translation>
     </message>
     <message>
         <source>Backlog</source>
@@ -3040,13 +3365,21 @@ SOME SPACE</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/generalsettingspage.ui" line="128"/>
-        <source>Status Buffer</source>
-        <translation>Буфер состояния</translation>
+        <source>Status Window</source>
+        <translation>Окно состояния</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/generalsettingspage.ui" line="135"/>
+        <source>Current Chat</source>
+        <translation>Текущее</translation>
+    </message>
+    <message>
+        <source>Status Buffer</source>
+        <translation type="obsolete">Буфер состояния</translation>
+    </message>
+    <message>
         <source>Current Buffer</source>
-        <translation>Текущий буфер</translation>
+        <translation type="obsolete">Текущий буфер</translation>
     </message>
     <message>
         <source>Errors</source>
@@ -3074,6 +3407,11 @@ SOME SPACE</translation>
         <location filename="../src/qtui/settingspages/highlightsettingspage.ui" line="32"/>
         <source>Highlight</source>
         <translation>Подсветка</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/highlightsettingspage.cpp" line="30"/>
+        <source>Interface</source>
+        <translation>Интерфейс</translation>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/highlightsettingspage.cpp" line="159"/>
@@ -3146,9 +3484,8 @@ SOME SPACE</translation>
         <translation>Учитывать регистр</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/highlightsettingspage.cpp" line="30"/>
         <source>Appearance</source>
-        <translation>Вид</translation>
+        <translation type="obsolete">Вид</translation>
     </message>
 </context>
 <context>
@@ -3450,38 +3787,38 @@ Proceeding will cause an unencrypted transfer of your SSL Key and SSL Certificat
 <context>
     <name>Identity</name>
     <message>
-        <location filename="../src/common/identity.cpp" line="149"/>
+        <location filename="../src/common/identity.cpp" line="150"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;пусто&gt;</translation>
     </message>
     <message>
-        <location filename="../src/common/identity.cpp" line="121"/>
+        <location filename="../src/common/identity.cpp" line="122"/>
         <source>Quassel IRC User</source>
         <translation>Пользователь Quassel IRC</translation>
     </message>
     <message>
-        <location filename="../src/common/identity.cpp" line="155"/>
+        <location filename="../src/common/identity.cpp" line="156"/>
         <source>Gone fishing.</source>
         <translation>Ловлю рыбу.</translation>
     </message>
     <message>
-        <location filename="../src/common/identity.cpp" line="159"/>
+        <location filename="../src/common/identity.cpp" line="160"/>
         <source>Not here. No, really. not here!</source>
         <translation>Нет меня. Не, честно, нет меня!</translation>
     </message>
     <message>
-        <location filename="../src/common/identity.cpp" line="162"/>
+        <location filename="../src/common/identity.cpp" line="163"/>
         <source>All Quassel clients vanished from the face of the earth...</source>
         <translation>Все клиенты Quassel стёрты с лица земли...</translation>
     </message>
     <message>
-        <location filename="../src/common/identity.cpp" line="165"/>
+        <location filename="../src/common/identity.cpp" line="166"/>
         <source>Kindergarten is elsewhere!</source>
         <translation>Детский сад в другом месте!</translation>
     </message>
     <message>
-        <location filename="../src/common/identity.cpp" line="166"/>
         <location filename="../src/common/identity.cpp" line="167"/>
+        <location filename="../src/common/identity.cpp" line="168"/>
         <source>http://quassel-irc.org - Chat comfortably. Anywhere.</source>
         <translation>http://quassel-irc.org - Разговаривать удобно. Везде.</translation>
     </message>
@@ -3758,6 +4095,386 @@ Proceeding will cause an unencrypted transfer of your SSL Key and SSL Certificat
     </message>
 </context>
 <context>
+    <name>IgnoreListEditDlg</name>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelisteditdlg.ui" line="15"/>
+        <source>Configure ignore rule</source>
+        <translation>Настроить правило игнорирования</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelisteditdlg.ui" line="27"/>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Strictness:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;Dynamic:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Messages are filtered &quot;on the fly&quot;.&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Whenever you disable/delete the ignore rule,&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;the messages are shown again.&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;Permanent:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Messages are filtered before they get stored in the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Строгость:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;Временно:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Сообщения фильтруются «на лету».&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;При выключении/удалении правила,&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;сообщения показываются снова.&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;Навсегда:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Сообщения фильтруются до сохранения в базе.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelisteditdlg.ui" line="42"/>
+        <source>Strictness</source>
+        <translation>Строгость</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelisteditdlg.ui" line="48"/>
+        <source>Dynamic</source>
+        <translation>Временно</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelisteditdlg.ui" line="51"/>
+        <location filename="../src/qtui/settingspages/ignorelisteditdlg.ui" line="61"/>
+        <source>strictnessButtonGroup</source>
+        <translation>strictnessButtonGroup</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelisteditdlg.ui" line="58"/>
+        <source>Permanent</source>
+        <translation>Навсегда</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelisteditdlg.ui" line="71"/>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Rule Type:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;By Sender:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;The rule is matched against the sender string &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&quot;nick!ident@host.name&quot;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;By Message:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;The rule is matched against the actual message content&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; text-decoration: underline;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Тип правила:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;Адрес:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Правило применяется к маске отправителя&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&quot;nick!ident@host.name&quot;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;Текст:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Правило применяется к тексту сообщения&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; text-decoration: underline;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelisteditdlg.ui" line="86"/>
+        <source>Rule Type</source>
+        <translation>Тип правила</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelisteditdlg.ui" line="92"/>
+        <source>Sender</source>
+        <translation>Адрес</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelisteditdlg.ui" line="95"/>
+        <location filename="../src/qtui/settingspages/ignorelisteditdlg.ui" line="105"/>
+        <source>typeButtonGroup</source>
+        <translation>typeButtonGroup</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelisteditdlg.ui" line="102"/>
+        <source>Message</source>
+        <translation>Текст</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelisteditdlg.ui" line="117"/>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Ignore rule:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Depending on the type of the rule, the text is matched against either:&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- &lt;span style=&quot; text-decoration: underline;&quot;&gt;the message content:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; text-decoration: underline;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Example:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    &quot;*foobar*&quot; matches any text containing the word &quot;foobar&quot;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- &lt;span style=&quot; text-decoration: underline;&quot;&gt;the sender string &lt;/span&gt;&lt;span style=&quot; font-style:italic; text-decoration: underline;&quot;&gt;nick!ident@host.name&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-style:italic; text-decoration: underline;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Examples:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    &quot;*@foobar.com&quot; matches any sender from host &quot;foobar.com&quot;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    &quot;stupid!.+&quot; (RegEx) matches any sender with nickname &quot;stupid&quot; from any host&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Правило игнорирования:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;В зависимости от типа правила, шаблон сравнивается с:&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- &lt;span style=&quot; text-decoration: underline;&quot;&gt;текстом сообщения,&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; text-decoration: underline;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Например:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    &quot;*шушпанчик*&quot; соответствует любому сообщению, содержащему слово &quot;шушпанчик&quot;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- &lt;span style=&quot; text-decoration: underline;&quot;&gt;адресом отправителя.&lt;/span&gt;&lt;span style=&quot; font-style:italic; text-decoration: underline;&quot;&gt;nick!ident@host.name&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-style:italic; text-decoration: underline;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Примеры:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    &quot;*@foobar.com&quot; соответствует любому отправителю с хоста &quot;foobar.com&quot;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    &quot;stupid!.+&quot; (RegEx) соответствует любому отправителю с ником &quot;stupid&quot; с любого хоста&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelisteditdlg.ui" line="138"/>
+        <source>Ignore rule</source>
+        <translation>Правило игнорирования</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelisteditdlg.ui" line="149"/>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Use RegularExpressions:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;If enabled, rules follow regular expression syntax.&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Otherwise rules allow wildcard matching with &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; *: represents &quot;any amount of any character&quot;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; ?: represents &quot;one or none character&quot;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Использовать регулярные выражения:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Если включено, правила следуют синтаксису регулярных выражений.&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;В противном случае, правила допускают маски:&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; *: означает «любое количество любых символов»&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; ?: означает «ровно один любой символ»&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelisteditdlg.ui" line="163"/>
+        <source>Use Regular Expressions</source>
+        <translation>Использовать регулярные выражения</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelisteditdlg.ui" line="170"/>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Enable / Disable:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:768;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Only enabled rules are filtered.&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:768;&quot;&gt;For dynamic rules, disabling actually shows the filtered messages again.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Вкл/Выкл:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:768;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Применяются только включенные правила.&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:768;&quot;&gt;Для правил временной строгости, отключение показывает ранее скрытые сообщения.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelisteditdlg.ui" line="180"/>
+        <source>Enabled</source>
+        <translation>Вкл</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelisteditdlg.ui" line="192"/>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Scope:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;Global:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;The rule is active for any channel on any network&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;Network:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;The list below is interpreted as a list of networks for which the rule should match&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;Channel:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;The list below is interpreted as a list of channels for which the rule should match&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Область действия:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;Глобальная:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Правило действует для всех чатов во всех сетях&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;Сетевая:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Список внизу понимается как список сетей, в которых действует правило&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;Канальная:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Список внизу понимается как список каналов, в которых действует правило&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelisteditdlg.ui" line="208"/>
+        <source>Scope</source>
+        <translation>Область действия</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelisteditdlg.ui" line="216"/>
+        <source>Global</source>
+        <translation>Глобальная</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelisteditdlg.ui" line="219"/>
+        <location filename="../src/qtui/settingspages/ignorelisteditdlg.ui" line="229"/>
+        <location filename="../src/qtui/settingspages/ignorelisteditdlg.ui" line="239"/>
+        <source>scopeButtonGroup</source>
+        <translation>scopeButtonGroup</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelisteditdlg.ui" line="226"/>
+        <source>Network</source>
+        <translation>Сетевая</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelisteditdlg.ui" line="236"/>
+        <source>Channel</source>
+        <translation>Канальная</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelisteditdlg.ui" line="248"/>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Scope rule:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;A scope rule is a semicolon separated list of either&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;network or channel names.&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Example:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&quot;#quassel*; #foobar&quot;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;would match on #foobar and on any channel starting with &quot;#quassel&quot;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Правила области действия:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Правила являются списком сетей или&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;каналов, разделённых точкой с запятой.&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Пример:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;«#quassel*; #foobar»&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;будет срабатывать для канала #foobar и любого канала, начинающегося с «#quassel»&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+</context>
+<context>
+    <name>IgnoreListModel</name>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelistmodel.cpp" line="69"/>
+        <source>&lt;b&gt;Enable / Disable:&lt;/b&gt;&lt;br /&gt;Only enabled rules are filtered.&lt;br /&gt;For dynamic rules, disabling actually shows the filtered messages again</source>
+        <translation>&lt;b&gt;Вкл/Выкл:&lt;/b&gt;&lt;br /&gt;Применяются только включенные правила.&lt;br /&gt;Для правил временной строгости, отключение показывает ранее скрытые сообщения.</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelistmodel.cpp" line="73"/>
+        <source>&lt;b&gt;Ignore rule:&lt;/b&gt;&lt;br /&gt;Depending on the type of the rule, the text is matched against either:&lt;br /&gt;&lt;br /&gt;- &lt;u&gt;the message content:&lt;/u&gt;&lt;br /&gt;&lt;i&gt;Example:&lt;i&gt;&lt;br /&gt;    &quot;*foobar*&quot; matches any text containing the word &quot;foobar&quot;&lt;br /&gt;&lt;br /&gt;- &lt;u&gt;the sender string &lt;i&gt;nick!ident@host.name&lt;i&gt;&lt;/u&gt;&lt;br /&gt;&lt;i&gt;Example:&lt;/i&gt;&lt;br /&gt;    &quot;*@foobar.com&quot; matches any sender from host foobar.com&lt;br /&gt;    &quot;stupid!.+&quot; (RegEx) matches any sender with nickname &quot;stupid&quot; from any host&lt;br /&gt;</source>
+        <translation>&lt;b&gt;Правило игнорирования:&lt;/b&gt;&lt;br /&gt;В зависимости от типа правила, шаблон сравнивается с:&lt;br /&gt;&lt;br /&gt;- &lt;u&gt;текстом сообщения,&lt;/u&gt;&lt;br /&gt;&lt;i&gt;Например:&lt;i&gt;&lt;br /&gt;    &quot;*шушпанчик*&quot; соответствует любому сообщению, содержащему слово &quot;шушпанчик&quot;&lt;br /&gt;&lt;br /&gt;- &lt;u&gt;адресом отправителя &lt;i&gt;nick!ident@host.name&lt;i&gt;&lt;/u&gt;&lt;br /&gt;&lt;i&gt;Например:&lt;/i&gt;&lt;br /&gt;    &quot;*@foobar.com&quot; соответствует любому отправителю с хоста &quot;foobar.com&quot;&lt;br /&gt;    &quot;stupid!.+&quot; (RegEx) соответствует любому отправителю с ником &quot;stupid&quot; с любого хоста&lt;br /&gt;</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelistmodel.cpp" line="89"/>
+        <source>By Sender</source>
+        <translation>Отправитель</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelistmodel.cpp" line="91"/>
+        <source>By Message</source>
+        <translation>Текст</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelistmodel.cpp" line="191"/>
+        <source>Enabled</source>
+        <translation>Вкл</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelistmodel.cpp" line="192"/>
+        <source>Type</source>
+        <translation>Тип</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelistmodel.cpp" line="193"/>
+        <source>Ignore Rule</source>
+        <translation>Правило игнорирования</translation>
+    </message>
+</context>
+<context>
+    <name>IgnoreListSettingsPage</name>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelistsettingspage.cpp" line="34"/>
+        <source>Misc</source>
+        <translation>Прочее</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelistsettingspage.cpp" line="34"/>
+        <source>Ignorelist</source>
+        <translation>Игнор-лист</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelistsettingspage.cpp" line="111"/>
+        <source>Rule already exists</source>
+        <translation>Правило уже существует</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelistsettingspage.cpp" line="112"/>
+        <source>There is already a rule
+&quot;%1&quot;
+Please choose another rule.</source>
+        <translation>Правило
+&quot;%1&quot;
+уже существует. Пожалуйста, выберите другое.</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelistsettingspage.ui" line="14"/>
+        <source>Form</source>
+        <translation>Форма</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelistsettingspage.ui" line="28"/>
+        <source>New</source>
+        <translation>Новое</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelistsettingspage.ui" line="42"/>
+        <source>Delete</source>
+        <translation>Удалить</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/ignorelistsettingspage.ui" line="56"/>
+        <source>&amp;Edit</source>
+        <translation>&amp;Править</translation>
+    </message>
+</context>
+<context>
     <name>InputLine</name>
     <message numerus="yes">
         <source>Do you really want to paste %1 lines?</source>
@@ -3768,14 +4485,12 @@ Proceeding will cause an unencrypted transfer of your SSL Key and SSL Certificat
         </translation>
     </message>
     <message>
-        <location filename="../src/uisupport/inputline.cpp" line="220"/>
         <source>Paste Protection</source>
-        <translation>Защита при вставке</translation>
+        <translation type="obsolete">Защита при вставке</translation>
     </message>
     <message numerus="yes">
-        <location filename="../src/uisupport/inputline.cpp" line="211"/>
         <source>Do you really want to paste %n lines?</source>
-        <translation>
+        <translation type="obsolete">
             <numerusform>На самом деле вставить %n строку?</numerusform>
             <numerusform>На самом деле вставить %n строки?</numerusform>
             <numerusform>На самом деле вставить %n строк?</numerusform>
@@ -3785,12 +4500,12 @@ Proceeding will cause an unencrypted transfer of your SSL Key and SSL Certificat
 <context>
     <name>InputWidget</name>
     <message>
-        <location filename="../src/qtui/inputwidget.cpp" line="54"/>
+        <location filename="../src/qtui/inputwidget.cpp" line="83"/>
         <source>Focus Input Line</source>
         <translation>Активировать строку ввода</translation>
     </message>
     <message>
-        <location filename="../src/qtui/inputwidget.cpp" line="55"/>
+        <location filename="../src/qtui/inputwidget.cpp" line="84"/>
         <source>Ctrl+L</source>
         <translation>Ctrl+L</translation>
     </message>
@@ -3798,6 +4513,109 @@ Proceeding will cause an unencrypted transfer of your SSL Key and SSL Certificat
         <location filename="../src/qtui/ui/inputwidget.ui" line="20"/>
         <source>Form</source>
         <translation>Форма</translation>
+    </message>
+</context>
+<context>
+    <name>InputWidgetSettingsPage</name>
+    <message>
+        <location filename="../src/qtui/settingspages/inputwidgetsettingspage.cpp" line="23"/>
+        <source>Interface</source>
+        <translation>Интерфейс</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/inputwidgetsettingspage.cpp" line="23"/>
+        <source>Input Widget</source>
+        <translation>Строка ввода</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/inputwidgetsettingspage.ui" line="14"/>
+        <source>Form</source>
+        <translation>Форма</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/inputwidgetsettingspage.ui" line="22"/>
+        <source>Custom font:</source>
+        <translation>Свой шрифт:</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/inputwidgetsettingspage.ui" line="25"/>
+        <source>/UiStyle/Fonts/UseCustomInputWidgetFont</source>
+        <translation>/UiStyle/Fonts/UseCustomInputWidgetFont</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/inputwidgetsettingspage.ui" line="38"/>
+        <source>/UiStyle/Fonts/InputWidget</source>
+        <translation>/UiStyle/Fonts/InputWidget</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/inputwidgetsettingspage.ui" line="50"/>
+        <source>Enable spell check</source>
+        <translation>Включить проверку правописания</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/inputwidgetsettingspage.ui" line="53"/>
+        <source>EnableSpellCheck</source>
+        <translation>EnableSpellCheck</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/inputwidgetsettingspage.ui" line="63"/>
+        <source>Show nick selector</source>
+        <translation>Показывать селектор ника</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/inputwidgetsettingspage.ui" line="69"/>
+        <source>ShowNickSelector</source>
+        <translation>ShowNickSelector</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/inputwidgetsettingspage.ui" line="79"/>
+        <source>Multi-Line Editing</source>
+        <translation>Многострочное редактирование</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/inputwidgetsettingspage.ui" line="87"/>
+        <source>Show at most</source>
+        <translation>Показывать не более</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/inputwidgetsettingspage.ui" line="103"/>
+        <source>MaxNumLines</source>
+        <translation>MaxNumLines</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/inputwidgetsettingspage.ui" line="113"/>
+        <source>lines</source>
+        <translation>строк</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/inputwidgetsettingspage.ui" line="135"/>
+        <source>Enable scrollbars</source>
+        <translation>Включить полосы прокрутки</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/inputwidgetsettingspage.ui" line="141"/>
+        <source>EnableScrollBars</source>
+        <translation>EnableScrollBars</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/inputwidgetsettingspage.ui" line="154"/>
+        <source>Tab Completion</source>
+        <translation>Дополнение по Tab</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/inputwidgetsettingspage.ui" line="162"/>
+        <source>Completion suffix:</source>
+        <translation>Суффикс автодополнения:</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/inputwidgetsettingspage.ui" line="175"/>
+        <source>/TabCompletion/CompletionSuffix</source>
+        <translation>/TabCompletion/CompletionSuffix</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/inputwidgetsettingspage.ui" line="178"/>
+        <source>: </source>
+        <translation>: </translation>
     </message>
 </context>
 <context>
@@ -3829,143 +4647,143 @@ Proceeding will cause an unencrypted transfer of your SSL Key and SSL Certificat
 <context>
     <name>IrcServerHandler</name>
     <message>
-        <location filename="../src/core/ircserverhandler.cpp" line="488"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="520"/>
         <source>%1 has changed topic for %2 to: &quot;%3&quot;</source>
         <translation>%1 сменил тему канала %2 на &quot;%3&quot;</translation>
     </message>
     <message>
-        <location filename="../src/core/ircserverhandler.cpp" line="513"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="545"/>
         <source>Received RPL_ISUPPORT (005) without parameters!</source>
         <translation>Получено RPL_ISUPPORT (005) без параметров!</translation>
     </message>
     <message>
-        <location filename="../src/core/ircserverhandler.cpp" line="521"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="553"/>
         <source>Received non RFC compliant RPL_ISUPPORT: this can lead to unexpected behavior!</source>
         <translation>Получен нестандартный RPL_ISUPPORT: может случиться всё что угодно!</translation>
     </message>
     <message>
-        <location filename="../src/core/ircserverhandler.cpp" line="538"/>
-        <location filename="../src/core/ircserverhandler.cpp" line="545"/>
-        <location filename="../src/core/ircserverhandler.cpp" line="552"/>
-        <location filename="../src/core/ircserverhandler.cpp" line="559"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="570"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="577"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="584"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="591"/>
         <source>%1</source>
         <translation>%1</translation>
     </message>
     <message>
-        <location filename="../src/core/ircserverhandler.cpp" line="594"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="626"/>
         <source>[Whois] %1 is away: &quot;%2&quot;</source>
         <translation>[Whois] %1 отсутствует: &quot;%2&quot;</translation>
     </message>
     <message>
-        <location filename="../src/core/ircserverhandler.cpp" line="600"/>
-        <location filename="../src/core/ircserverhandler.cpp" line="605"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="632"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="637"/>
         <source>%1 is away: &quot;%2&quot;</source>
         <translation>%1 отсутствует: &quot;%2&quot;</translation>
     </message>
     <message>
-        <location filename="../src/core/ircserverhandler.cpp" line="649"/>
-        <location filename="../src/core/ircserverhandler.cpp" line="663"/>
-        <location filename="../src/core/ircserverhandler.cpp" line="697"/>
-        <location filename="../src/core/ircserverhandler.cpp" line="713"/>
-        <location filename="../src/core/ircserverhandler.cpp" line="774"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="681"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="695"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="729"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="745"/>
         <location filename="../src/core/ircserverhandler.cpp" line="806"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="838"/>
         <source>[Whois] %1</source>
         <translation>[Whois] %1</translation>
     </message>
     <message>
-        <location filename="../src/core/ircserverhandler.cpp" line="678"/>
-        <location filename="../src/core/ircserverhandler.cpp" line="680"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="710"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="712"/>
         <source>[Whois] %1 is %2 (%3)</source>
         <translation>[Whois] %1 это %2 (%3)</translation>
     </message>
     <message>
-        <location filename="../src/core/ircserverhandler.cpp" line="695"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="727"/>
         <source>%1 is online via %2 (%3)</source>
         <translation>%1 подключен через %2 (%3)</translation>
     </message>
     <message>
-        <location filename="../src/core/ircserverhandler.cpp" line="699"/>
-        <location filename="../src/core/ircserverhandler.cpp" line="977"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="731"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="1009"/>
         <source>[Whowas] %1</source>
         <translation>[Whowas] %1</translation>
     </message>
     <message>
-        <location filename="../src/core/ircserverhandler.cpp" line="725"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="757"/>
         <source>[Whowas] %1 was %2 (%3)</source>
         <translation>[Whowas] %1 был %2 (%3)</translation>
     </message>
     <message>
-        <location filename="../src/core/ircserverhandler.cpp" line="739"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="771"/>
         <source>[Who] End of /WHO list for %1</source>
         <translation>[Who] Конец списка /WHO для %1</translation>
     </message>
     <message>
-        <location filename="../src/core/ircserverhandler.cpp" line="759"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="791"/>
         <source>[Whois] %1 is logged in since %2</source>
         <translation>[Whois] %1 в онлайне с %2</translation>
     </message>
     <message>
-        <location filename="../src/core/ircserverhandler.cpp" line="761"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="793"/>
         <source>[Whois] %1 is idling for %2 (%3)</source>
         <translation>[Whois] %1 неактивен %2 (%3)</translation>
     </message>
     <message>
-        <location filename="../src/core/ircserverhandler.cpp" line="764"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="796"/>
         <source>[Whois] idle message: %1</source>
         <translation>[Whois] сообщение неактивности: %1</translation>
     </message>
     <message>
-        <location filename="../src/core/ircserverhandler.cpp" line="796"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="828"/>
         <source>[Whois] %1 is a user on channels: %2</source>
         <translation>[Whois] %1 является участником каналов: %2</translation>
     </message>
     <message>
-        <location filename="../src/core/ircserverhandler.cpp" line="798"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="830"/>
         <source>[Whois] %1 has voice on channels: %2</source>
         <translation>[Whois] %1 является участником с голосом на каналах: %2</translation>
     </message>
     <message>
-        <location filename="../src/core/ircserverhandler.cpp" line="800"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="832"/>
         <source>[Whois] %1 is an operator on channels: %2</source>
         <translation>[Whois] %1 является оператором каналов: %2</translation>
     </message>
     <message>
-        <location filename="../src/core/ircserverhandler.cpp" line="828"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="860"/>
         <source>Channel %1 has %2 users. Topic is: %3</source>
         <translation>На канале %1 %2 пользователей. Тема: %3</translation>
     </message>
     <message>
-        <location filename="../src/core/ircserverhandler.cpp" line="837"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="869"/>
         <source>End of channel list</source>
         <translation>Конец списка каналов</translation>
     </message>
     <message>
-        <location filename="../src/core/ircserverhandler.cpp" line="855"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="887"/>
         <source>Homepage for %1 is %2</source>
         <translation>Домашняя страница канала %1 %2</translation>
     </message>
     <message>
-        <location filename="../src/core/ircserverhandler.cpp" line="873"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="905"/>
         <source>Channel %1 created on %2</source>
         <translation>Канал %1 создан %2</translation>
     </message>
     <message>
-        <location filename="../src/core/ircserverhandler.cpp" line="887"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="919"/>
         <source>No topic is set for %1.</source>
         <translation>Тема для канала %1 не установлена.</translation>
     </message>
     <message>
-        <location filename="../src/core/ircserverhandler.cpp" line="902"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="934"/>
         <source>Topic for %1 is &quot;%2&quot;</source>
         <translation>Тема канала %1 &quot;%2&quot;</translation>
     </message>
     <message>
-        <location filename="../src/core/ircserverhandler.cpp" line="913"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="945"/>
         <source>Topic set by %1 on %2</source>
         <translation>Тема установлена %1 %2</translation>
     </message>
     <message>
-        <location filename="../src/core/ircserverhandler.cpp" line="936"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="968"/>
         <source>[Who] %1</source>
         <translation>[Who] %1</translation>
     </message>
@@ -3982,17 +4800,17 @@ Proceeding will cause an unencrypted transfer of your SSL Key and SSL Certificat
         <translation type="obsolete">Для продолжения используйте: /nick &lt;другой ник&gt; или почистите ваш список ников</translation>
     </message>
     <message>
-        <location filename="../src/core/ircserverhandler.cpp" line="995"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="1027"/>
         <source>Nick %1 contains illegal characters</source>
         <translation>Ник %1 содержит недопустимые символы</translation>
     </message>
     <message>
-        <location filename="../src/core/ircserverhandler.cpp" line="1006"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="1038"/>
         <source>Nick already in use: %1</source>
         <translation>Ник уже используется: %1</translation>
     </message>
     <message>
-        <location filename="../src/core/ircserverhandler.cpp" line="1031"/>
+        <location filename="../src/core/ircserverhandler.cpp" line="1095"/>
         <source>No free and valid nicks in nicklist found. use: /nick &lt;othernick&gt; to continue</source>
         <translation>Среди ников в списке не найдено свободного и корректного. Используйте /nick &lt;другой ник&gt; для продолжения</translation>
     </message>
@@ -4000,35 +4818,239 @@ Proceeding will cause an unencrypted transfer of your SSL Key and SSL Certificat
 <context>
     <name>IrcUserItem</name>
     <message>
-        <location filename="../src/client/networkmodel.cpp" line="801"/>
+        <location filename="../src/client/networkmodel.cpp" line="799"/>
         <source>idling since %1</source>
         <translation>неактивен с %1</translation>
     </message>
     <message>
-        <location filename="../src/client/networkmodel.cpp" line="804"/>
+        <location filename="../src/client/networkmodel.cpp" line="802"/>
         <source>login time: %1</source>
         <translation>время входа: %1</translation>
     </message>
     <message>
-        <location filename="../src/client/networkmodel.cpp" line="807"/>
+        <location filename="../src/client/networkmodel.cpp" line="805"/>
         <source>server: %1</source>
         <translation>сервер: %1</translation>
     </message>
 </context>
 <context>
+    <name>ItemViewSettingsPage</name>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.cpp" line="28"/>
+        <source>Interface</source>
+        <translation>Интерфейс</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.cpp" line="28"/>
+        <source>Chat &amp; Nick Lists</source>
+        <translation>Списки ников и чатов</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.cpp" line="33"/>
+        <source>Network</source>
+        <translation>Сеть</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.cpp" line="36"/>
+        <source>Inactive</source>
+        <translation>Неактивные</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.cpp" line="37"/>
+        <source>Normal</source>
+        <translation>Нормальные</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.cpp" line="38"/>
+        <source>Unread messages</source>
+        <translation>Непрочитанные сообщения</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.cpp" line="39"/>
+        <source>Highlight</source>
+        <translation>Подсветка</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.cpp" line="40"/>
+        <source>Other activity</source>
+        <translation>Другая активность</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="14"/>
+        <source>Form</source>
+        <translation>Форма</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="22"/>
+        <source>Custom font:</source>
+        <translation>Свой шрифт:</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="25"/>
+        <source>/UiStyle/Fonts/UseCustomItemViewFont</source>
+        <translation>/UiStyle/Fonts/UseCustomItemViewFont</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="38"/>
+        <source>/UiStyle/Fonts/ItemView</source>
+        <translation>/UiStyle/Fonts/ItemView</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="50"/>
+        <source>Show icons</source>
+        <translation>Показывать иконки</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="56"/>
+        <source>/UiStyle/ShowItemViewIcons</source>
+        <translation>/UiStyle/ShowItemViewIcons</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="66"/>
+        <source>Chat List</source>
+        <translation>Список чатов</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="72"/>
+        <source>Display topic in tooltip</source>
+        <translation>Показывать тему во всплывающей подсказке</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="75"/>
+        <source>DisplayTopicInTooltip</source>
+        <translation>DisplayTopicInTooltip</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="85"/>
+        <source>Mouse wheel changes selected chat</source>
+        <translation>Колесо мыши переключает текущий чат</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="91"/>
+        <source>MouseWheelChangesBuffer</source>
+        <translation>MouseWheelChangesBuffer</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="101"/>
+        <source>Use Custom Colors</source>
+        <translation>Свои цвета</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="107"/>
+        <source>/UiStyle/Colors/UseBufferViewColors</source>
+        <translation>/UiStyle/Colors/UseBufferViewColors</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="118"/>
+        <source>Standard:</source>
+        <translation>Стандартное:</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="125"/>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="149"/>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="173"/>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="197"/>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="221"/>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="308"/>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="345"/>
+        <source>...</source>
+        <translation>...</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="128"/>
+        <source>/UiStyle/Colors/DefaultBuffer</source>
+        <translation>/UiStyle/Colors/DefaultBuffer</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="142"/>
+        <source>Inactive:</source>
+        <translation>Неактивно:</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="152"/>
+        <source>/UiStyle/Colors/InactiveBuffer</source>
+        <translation>/UiStyle/Colors/InactiveBuffer</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="166"/>
+        <source>Unread messages:</source>
+        <translation>Непрочитанные сообщения:</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="176"/>
+        <source>/UiStyle/Colors/UnreadBuffer</source>
+        <translation>/UiStyle/Colors/UnreadBuffer</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="190"/>
+        <source>Highlight:</source>
+        <translation>Подсветка:</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="200"/>
+        <source>/UiStyle/Colors/HighlightedBuffer</source>
+        <translation>/UiStyle/Colors/HighlightedBuffer</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="214"/>
+        <source>Other activity:</source>
+        <translation>Другая активность:</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="224"/>
+        <source>/UiStyle/Colors/ActiveBuffer</source>
+        <translation>/UiStyle/Colors/ActiveBuffer</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="272"/>
+        <source>1</source>
+        <translation>1</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="286"/>
+        <source>Custom Nick List Colors</source>
+        <translation>Свои цвета в списке ников</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="292"/>
+        <source>/UiStyle/Colors/UseNickViewColors</source>
+        <translation>/UiStyle/Colors/UseNickViewColors</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="301"/>
+        <source>Online:</source>
+        <translation>Онлайн:</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="311"/>
+        <source>/UiStyle/Colors/OnlineNick</source>
+        <translation>/UiStyle/Colors/OnlineNick</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="338"/>
+        <source>Away:</source>
+        <translation>Отсутствует:</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/settingspages/itemviewsettingspage.ui" line="348"/>
+        <source>/UiStyle/Colors/AwayNick</source>
+        <translation>/UiStyle/Colors/AwayNick</translation>
+    </message>
+</context>
+<context>
     <name>MainWin</name>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="276"/>
+        <location filename="../src/qtui/mainwin.cpp" line="280"/>
         <source>&amp;Connect to Core...</source>
         <translation>&amp;Подключиться к ядру...</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="278"/>
+        <location filename="../src/qtui/mainwin.cpp" line="282"/>
         <source>&amp;Disconnect from Core</source>
         <translation>&amp;Отключиться от ядра</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="280"/>
+        <location filename="../src/qtui/mainwin.cpp" line="284"/>
         <source>Core &amp;Info...</source>
         <translation>&amp;Инфромация ядра...</translation>
     </message>
@@ -4037,12 +5059,12 @@ Proceeding will cause an unencrypted transfer of your SSL Key and SSL Certificat
         <translation type="obsolete">&amp;Редактировать сети...</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="284"/>
+        <location filename="../src/qtui/mainwin.cpp" line="288"/>
         <source>&amp;Quit</source>
         <translation>В&amp;ыход</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="285"/>
+        <location filename="../src/qtui/mainwin.cpp" line="289"/>
         <source>Ctrl+Q</source>
         <translation>Ctrl+Q</translation>
     </message>
@@ -4055,7 +5077,7 @@ Proceeding will cause an unencrypted transfer of your SSL Key and SSL Certificat
         <translation type="obsolete">За&amp;фиксировать позиции</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="295"/>
+        <location filename="../src/qtui/mainwin.cpp" line="299"/>
         <source>Show &amp;Search Bar</source>
         <translation>Показать строку &amp;поиска</translation>
     </message>
@@ -4064,17 +5086,17 @@ Proceeding will cause an unencrypted transfer of your SSL Key and SSL Certificat
         <translation type="obsolete">Ctrl+F</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="299"/>
+        <location filename="../src/qtui/mainwin.cpp" line="303"/>
         <source>Show Status &amp;Bar</source>
         <translation>Показать строку &amp;статуса</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="303"/>
+        <location filename="../src/qtui/mainwin.cpp" line="307"/>
         <source>&amp;Configure Quassel...</source>
         <translation>&amp;Настройки Quassel...</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="304"/>
+        <location filename="../src/qtui/mainwin.cpp" line="308"/>
         <source>F7</source>
         <translation>F7</translation>
     </message>
@@ -4087,97 +5109,95 @@ Proceeding will cause an unencrypted transfer of your SSL Key and SSL Certificat
         <translation type="obsolete">О &amp;Qt...</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="311"/>
+        <location filename="../src/qtui/mainwin.cpp" line="315"/>
         <source>Debug &amp;NetworkModel</source>
         <translation>Отладить &amp;NetworkModel</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="317"/>
+        <location filename="../src/qtui/mainwin.cpp" line="321"/>
         <source>Debug &amp;HotList</source>
         <translation>Отладить &amp;ГорячийСписок</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="323"/>
         <source>Jump to hot buffer</source>
-        <translation>Перейти на горячий список</translation>
+        <translation type="obsolete">Перейти на горячий список</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="330"/>
+        <location filename="../src/qtui/mainwin.cpp" line="336"/>
         <source>&amp;File</source>
         <translation>&amp;Файл</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="343"/>
+        <location filename="../src/qtui/mainwin.cpp" line="349"/>
         <source>&amp;Networks</source>
         <translation>&amp;Сети</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="349"/>
+        <location filename="../src/qtui/mainwin.cpp" line="355"/>
         <source>&amp;View</source>
         <translation>&amp;Вид</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="350"/>
         <source>&amp;Buffer Views</source>
-        <translation>&amp;Буфера</translation>
+        <translation type="obsolete">&amp;Буфера</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="364"/>
+        <location filename="../src/qtui/mainwin.cpp" line="370"/>
         <source>&amp;Settings</source>
         <translation>&amp;Настройки</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="371"/>
+        <location filename="../src/qtui/mainwin.cpp" line="377"/>
         <source>&amp;Help</source>
         <translation>&amp;Помощь</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="379"/>
+        <location filename="../src/qtui/mainwin.cpp" line="385"/>
         <source>Debug</source>
         <translation>Отладка</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="505"/>
+        <location filename="../src/qtui/mainwin.cpp" line="513"/>
         <source>Nicks</source>
         <translation>Ники</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="514"/>
+        <location filename="../src/qtui/mainwin.cpp" line="522"/>
         <source>Show Nick List</source>
         <translation>Показать список ников</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="525"/>
+        <location filename="../src/qtui/mainwin.cpp" line="533"/>
         <source>Chat Monitor</source>
         <translation>Монитор чата</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="536"/>
+        <location filename="../src/qtui/mainwin.cpp" line="544"/>
         <source>Show Chat Monitor</source>
         <translation>Показать монитор чата</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="540"/>
+        <location filename="../src/qtui/mainwin.cpp" line="548"/>
         <source>Inputline</source>
         <translation>Строкаввода</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="549"/>
+        <location filename="../src/qtui/mainwin.cpp" line="557"/>
         <source>Show Input Line</source>
         <translation>Показать строку ввода</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="560"/>
+        <location filename="../src/qtui/mainwin.cpp" line="568"/>
         <source>Topic</source>
         <translation>Тема</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="572"/>
+        <location filename="../src/qtui/mainwin.cpp" line="580"/>
         <source>Show Topic Line</source>
         <translation>Показать строку темы</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="677"/>
+        <location filename="../src/qtui/mainwin.cpp" line="685"/>
         <source>Connected to core.</source>
         <translation>Соединение с ядром установлено.</translation>
     </message>
@@ -4186,67 +5206,86 @@ Proceeding will cause an unencrypted transfer of your SSL Key and SSL Certificat
         <translation type="obsolete">Лаг ядра: %1 мс</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="747"/>
+        <location filename="../src/qtui/mainwin.cpp" line="755"/>
         <source>Not connected to core.</source>
         <translation>Нет соединения с ядром.</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="315"/>
+        <location filename="../src/qtui/mainwin.cpp" line="319"/>
         <source>Debug &amp;MessageModel</source>
         <translation>Отладить &amp;MessageModel</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="319"/>
+        <location filename="../src/qtui/mainwin.cpp" line="323"/>
         <source>Debug &amp;Log</source>
         <translation>&amp;Журнал отладки</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="307"/>
+        <location filename="../src/qtui/mainwin.cpp" line="311"/>
         <source>&amp;About Quassel</source>
         <translation>&amp;О Quassel</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="309"/>
+        <location filename="../src/qtui/mainwin.cpp" line="313"/>
         <source>About &amp;Qt</source>
         <translation>О &amp;Qt</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="282"/>
+        <location filename="../src/qtui/mainwin.cpp" line="286"/>
         <source>Configure &amp;Networks...</source>
         <translation>Настроить &amp;сети...</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="288"/>
         <source>&amp;Configure Buffer Views...</source>
-        <translation>Настроить списки &amp;буферов...</translation>
+        <translation type="obsolete">Настроить списки &amp;буферов...</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="711"/>
+        <location filename="../src/qtui/mainwin.cpp" line="719"/>
         <source>Core Lag: %1</source>
         <translation>Лаг ядра: %1</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="291"/>
+        <location filename="../src/qtui/mainwin.cpp" line="295"/>
         <source>&amp;Lock Layout</source>
         <translation>&amp;Блокировать расположение</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="297"/>
+        <location filename="../src/qtui/mainwin.cpp" line="292"/>
+        <source>&amp;Configure Chat Lists...</source>
+        <translation>Настроить списки &amp;чатов...</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/mainwin.cpp" line="301"/>
         <source>Show Away Log</source>
         <translation>Показать журнал отсутствия</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="352"/>
+        <location filename="../src/qtui/mainwin.cpp" line="325"/>
+        <source>Reload Stylesheet</source>
+        <translation>Перезагрузить файл стилей</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/mainwin.cpp" line="329"/>
+        <source>Jump to hot chat</source>
+        <translation>Перейти на горячий чат</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/mainwin.cpp" line="356"/>
+        <source>&amp;Chat Lists</source>
+        <translation>&amp;Списки чатов</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/mainwin.cpp" line="358"/>
         <source>&amp;Toolbars</source>
         <translation>Па&amp;нели</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="313"/>
+        <location filename="../src/qtui/mainwin.cpp" line="317"/>
         <source>Debug &amp;BufferViewOverlay</source>
         <translation>Отладить &amp;BufferViewOverlay</translation>
     </message>
     <message>
-        <location filename="../src/qtui/mainwin.cpp" line="638"/>
+        <location filename="../src/qtui/mainwin.cpp" line="646"/>
         <source>Main Toolbar</source>
         <translation>Главная панель</translation>
     </message>
@@ -4254,7 +5293,7 @@ Proceeding will cause an unencrypted transfer of your SSL Key and SSL Certificat
 <context>
     <name>Message</name>
     <message>
-        <location filename="../src/common/message.h" line="69"/>
+        <location filename="../src/common/message.h" line="71"/>
         <source>Day changed to %1</source>
         <translation>День сменился на %1</translation>
     </message>
@@ -4368,7 +5407,7 @@ Proceeding will cause an unencrypted transfer of your SSL Key and SSL Certificat
         <translation>Пожалуйста введите название сети:</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/networkssettingspage.cpp" line="705"/>
+        <location filename="../src/qtui/settingspages/networkssettingspage.cpp" line="690"/>
         <source>Add Network</source>
         <translation>Добавить сеть</translation>
     </message>
@@ -4376,17 +5415,17 @@ Proceeding will cause an unencrypted transfer of your SSL Key and SSL Certificat
 <context>
     <name>NetworkItem</name>
     <message>
-        <location filename="../src/client/networkmodel.cpp" line="196"/>
+        <location filename="../src/client/networkmodel.cpp" line="194"/>
         <source>Server: %1</source>
         <translation>Сервер: %1</translation>
     </message>
     <message>
-        <location filename="../src/client/networkmodel.cpp" line="197"/>
+        <location filename="../src/client/networkmodel.cpp" line="195"/>
         <source>Users: %1</source>
         <translation>Пользователи: %1</translation>
     </message>
     <message>
-        <location filename="../src/client/networkmodel.cpp" line="200"/>
+        <location filename="../src/client/networkmodel.cpp" line="198"/>
         <source>Lag: %1 msecs</source>
         <translation>Лаг: %1 мс</translation>
     </message>
@@ -4394,17 +5433,21 @@ Proceeding will cause an unencrypted transfer of your SSL Key and SSL Certificat
 <context>
     <name>NetworkModel</name>
     <message>
-        <location filename="../src/client/networkmodel.cpp" line="832"/>
-        <source>Buffer</source>
-        <translation>Буфер</translation>
+        <location filename="../src/client/networkmodel.cpp" line="830"/>
+        <source>Chat</source>
+        <translation>Чат</translation>
     </message>
     <message>
-        <location filename="../src/client/networkmodel.cpp" line="832"/>
+        <source>Buffer</source>
+        <translation type="obsolete">Буфер</translation>
+    </message>
+    <message>
+        <location filename="../src/client/networkmodel.cpp" line="830"/>
         <source>Topic</source>
         <translation>Тема</translation>
     </message>
     <message>
-        <location filename="../src/client/networkmodel.cpp" line="832"/>
+        <location filename="../src/client/networkmodel.cpp" line="830"/>
         <source>Nick Count</source>
         <translation>Ников</translation>
     </message>
@@ -4697,12 +5740,12 @@ Proceeding will cause an unencrypted transfer of your SSL Key and SSL Certificat
         <translation type="obsolete">Сначала примени!</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/networkssettingspage.cpp" line="542"/>
+        <location filename="../src/qtui/settingspages/networkssettingspage.cpp" line="527"/>
         <source>Delete Network?</source>
         <translation>Удалить сеть?</translation>
     </message>
     <message>
-        <location filename="../src/qtui/settingspages/networkssettingspage.cpp" line="543"/>
+        <location filename="../src/qtui/settingspages/networkssettingspage.cpp" line="528"/>
         <source>Do you really want to delete the network &quot;%1&quot; and all related settings, including the backlog?</source>
         <translation>Действительно удалить сеть &quot;%1&quot; и все сопутствующие данные, включая журнал?</translation>
     </message>
@@ -5045,8 +6088,12 @@ Unless you *really* know what you do, leave this as ISO-8859-1!</source>
     </message>
     <message>
         <location filename="../src/qtui/settingspages/notificationssettingspage.cpp" line="28"/>
+        <source>Interface</source>
+        <translation>Интерфейс</translation>
+    </message>
+    <message>
         <source>Appearance</source>
-        <translation>Вид</translation>
+        <translation type="obsolete">Вид</translation>
     </message>
 </context>
 <context>
@@ -5116,6 +6163,145 @@ Unless you *really* know what you do, leave this as ISO-8859-1!</source>
     </message>
 </context>
 <context>
+    <name>QssParser</name>
+    <message>
+        <location filename="../src/uisupport/qssparser.cpp" line="121"/>
+        <location filename="../src/uisupport/qssparser.cpp" line="166"/>
+        <location filename="../src/uisupport/qssparser.cpp" line="314"/>
+        <source>Invalid block declaration: %1</source>
+        <translation>Invalid block declaration: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/qssparser.cpp" line="140"/>
+        <source>Invalid palette role assignment: %1</source>
+        <translation>Invalid palette role assignment: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/qssparser.cpp" line="156"/>
+        <source>Unknown palette role name: %1</source>
+        <translation>Unknown palette role name: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/qssparser.cpp" line="192"/>
+        <source>Invalid subelement name in %1</source>
+        <translation>Invalid subelement name in %1</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/qssparser.cpp" line="234"/>
+        <source>Invalid message type in %1</source>
+        <translation>Invalid message type in %1</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/qssparser.cpp" line="243"/>
+        <source>Invalid condition %1</source>
+        <translation>Invalid condition %1</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/qssparser.cpp" line="255"/>
+        <source>Invalid message label: %1</source>
+        <translation>Invalid message label: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/qssparser.cpp" line="266"/>
+        <source>Invalid senderhash specification: %1</source>
+        <translation>Invalid senderhash specification: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/qssparser.cpp" line="270"/>
+        <source>Senderhash can be at most &quot;0x0f&quot;!</source>
+        <translation>Senderhash can be at most &quot;0x0f&quot;!</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/qssparser.cpp" line="285"/>
+        <source>Invalid format name: %1</source>
+        <translation>Invalid format name: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/qssparser.cpp" line="292"/>
+        <source>Illegal IRC color specification (must be between 00 and 0f): %1</source>
+        <translation>Illegal IRC color specification (must be between 00 and 0f): %1</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/qssparser.cpp" line="300"/>
+        <source>Unhandled condition: %1</source>
+        <translation>Unhandled condition: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/qssparser.cpp" line="329"/>
+        <source>Invalid proplist %1</source>
+        <translation>Invalid proplist %1</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/qssparser.cpp" line="348"/>
+        <source>Invalid chatlist item type %1</source>
+        <translation>Invalid chatlist item type %1</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/qssparser.cpp" line="364"/>
+        <source>Invalid chatlist state %1</source>
+        <translation>Invalid chatlist state %1</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/qssparser.cpp" line="390"/>
+        <source>Invalid property declaration: %1</source>
+        <translation>Invalid property declaration: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/qssparser.cpp" line="414"/>
+        <source>Invalid font property: %1</source>
+        <translation>Invalid font property: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/qssparser.cpp" line="420"/>
+        <source>Unknown ChatLine property: %1</source>
+        <translation>Unknown ChatLine property: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/qssparser.cpp" line="442"/>
+        <source>Invalid palette color role specification: %1</source>
+        <translation>Invalid palette color role specification: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/qssparser.cpp" line="449"/>
+        <source>Unknown palette color role: %1</source>
+        <translation>Unknown palette color role: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/qssparser.cpp" line="456"/>
+        <location filename="../src/uisupport/qssparser.cpp" line="478"/>
+        <location filename="../src/uisupport/qssparser.cpp" line="499"/>
+        <source>Invalid gradient declaration: %1</source>
+        <translation>Invalid gradient declaration: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/qssparser.cpp" line="465"/>
+        <location filename="../src/uisupport/qssparser.cpp" line="486"/>
+        <location filename="../src/uisupport/qssparser.cpp" line="509"/>
+        <source>Invalid gradient stops list: %1</source>
+        <translation>Invalid gradient stops list: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/qssparser.cpp" line="605"/>
+        <source>Invalid font specification: %1</source>
+        <translation>Invalid font specification: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/qssparser.cpp" line="644"/>
+        <source>Invalid font style specification: %1</source>
+        <translation>Invalid font style specification: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/qssparser.cpp" line="657"/>
+        <source>Invalid font weight specification: %1</source>
+        <translation>Invalid font weight specification: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/qssparser.cpp" line="667"/>
+        <source>Invalid font size specification: %1</source>
+        <translation>Invalid font size specification: %1</translation>
+    </message>
+</context>
+<context>
     <name>Quassel</name>
     <message>
         <source>Enable debug output</source>
@@ -5157,22 +6343,22 @@ Unless you *really* know what you do, leave this as ISO-8859-1!</source>
 <context>
     <name>QueryBufferItem</name>
     <message>
-        <location filename="../src/client/networkmodel.cpp" line="409"/>
+        <location filename="../src/client/networkmodel.cpp" line="407"/>
         <source>&lt;b&gt;Query with %1&lt;/b&gt;</source>
         <translation>&lt;b&gt;Приват с %1&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../src/client/networkmodel.cpp" line="427"/>
+        <location filename="../src/client/networkmodel.cpp" line="425"/>
         <source>idling since %1</source>
         <translation>неактивен с %1</translation>
     </message>
     <message>
-        <location filename="../src/client/networkmodel.cpp" line="430"/>
+        <location filename="../src/client/networkmodel.cpp" line="428"/>
         <source>login time: %1</source>
         <translation>время входа: %1</translation>
     </message>
     <message>
-        <location filename="../src/client/networkmodel.cpp" line="433"/>
+        <location filename="../src/client/networkmodel.cpp" line="431"/>
         <source>server: %1</source>
         <translation>сервер: %1</translation>
     </message>
@@ -5395,7 +6581,7 @@ Unless you *really* know what you do, leave this as ISO-8859-1!</source>
         <translation type="obsolete">Клиент пытался отправить пакет больше максимального размера!</translation>
     </message>
     <message>
-        <location filename="../src/common/signalproxy.cpp" line="1088"/>
+        <location filename="../src/common/signalproxy.cpp" line="1033"/>
         <source>Disconnecting</source>
         <translation>Отсоединяюсь</translation>
     </message>
@@ -5416,22 +6602,22 @@ Unless you *really* know what you do, leave this as ISO-8859-1!</source>
         <translation type="obsolete">Клиент отправил повреждённые данные: не могу загрузить QVariant!</translation>
     </message>
     <message>
-        <location filename="../src/common/signalproxy.cpp" line="951"/>
+        <location filename="../src/common/signalproxy.cpp" line="868"/>
         <source>Peer tried to send package larger than max package size!</source>
         <translation>Пир попытался отправить пакет больше максимального размера!</translation>
     </message>
     <message>
-        <location filename="../src/common/signalproxy.cpp" line="956"/>
+        <location filename="../src/common/signalproxy.cpp" line="873"/>
         <source>Peer tried to send 0 byte package!</source>
         <translation>Пир попытался отправить пакет из 0 байт!</translation>
     </message>
     <message>
-        <location filename="../src/common/signalproxy.cpp" line="973"/>
+        <location filename="../src/common/signalproxy.cpp" line="890"/>
         <source>Peer sent corrupted compressed data!</source>
         <translation>Пир отправил испорченные сжатые данные!</translation>
     </message>
     <message>
-        <location filename="../src/common/signalproxy.cpp" line="988"/>
+        <location filename="../src/common/signalproxy.cpp" line="905"/>
         <source>Peer sent corrupt data: unable to load QVariant!</source>
         <translation>Пир отправил испорченные данные: не могу загрузить QVariant!</translation>
     </message>
@@ -5812,140 +6998,245 @@ Unless you *really* know what you do, leave this as ISO-8859-1!</source>
 <context>
     <name>TopicWidget</name>
     <message>
-        <location filename="../src/qtui/ui/topicwidget.ui" line="31"/>
+        <location filename="../src/qtui/ui/topicwidget.ui" line="32"/>
         <source>Form</source>
         <translation>Форма</translation>
+    </message>
+    <message>
+        <location filename="../src/qtui/ui/topicwidget.ui" line="79"/>
+        <source>...</source>
+        <translation>...</translation>
     </message>
 </context>
 <context>
     <name>UiStyle::StyledMessage</name>
     <message>
-        <location filename="../src/uisupport/uistyle.cpp" line="328"/>
         <source>%D0%1</source>
-        <translation>%D0%1</translation>
+        <translation type="obsolete">%D0%1</translation>
     </message>
     <message>
-        <location filename="../src/uisupport/uistyle.cpp" line="330"/>
         <source>%Dn%1</source>
-        <translation>%Dn%1</translation>
+        <translation type="obsolete">%Dn%1</translation>
     </message>
     <message>
-        <location filename="../src/uisupport/uistyle.cpp" line="333"/>
         <source>%Ds%1</source>
-        <translation>%Ds%1</translation>
+        <translation type="obsolete">%Ds%1</translation>
     </message>
     <message>
-        <location filename="../src/uisupport/uistyle.cpp" line="335"/>
         <source>%De%1</source>
-        <translation>%De%1</translation>
+        <translation type="obsolete">%De%1</translation>
     </message>
     <message>
-        <location filename="../src/uisupport/uistyle.cpp" line="337"/>
         <source>%Dj%DN%1%DN %DH(%2@%3)%DH has joined %DC%4%DC</source>
-        <translation>%Dj%DN%1%DN %DH(%2@%3)%DH вошёл на канал %DC%4%DC</translation>
+        <translation type="obsolete">%Dj%DN%1%DN %DH(%2@%3)%DH вошёл на канал %DC%4%DC</translation>
     </message>
     <message>
-        <location filename="../src/uisupport/uistyle.cpp" line="339"/>
         <source>%Dp%DN%1%DN %DH(%2@%3)%DH has left %DC%4%DC</source>
-        <translation>%Dp%DN%1%DN %DH(%2@%3)%DH покинул %DC%4%DC</translation>
+        <translation type="obsolete">%Dp%DN%1%DN %DH(%2@%3)%DH покинул %DC%4%DC</translation>
     </message>
     <message>
-        <location filename="../src/uisupport/uistyle.cpp" line="343"/>
         <source>%Dq%DN%1%DN %DH(%2@%3)%DH has quit</source>
-        <translation>%Dq%DN%1%DN %DH(%2@%3)%DH вышел из сети</translation>
+        <translation type="obsolete">%Dq%DN%1%DN %DH(%2@%3)%DH вышел из сети</translation>
     </message>
     <message>
-        <location filename="../src/uisupport/uistyle.cpp" line="349"/>
         <source>%Dk%DN%1%DN has kicked %DN%2%DN from %DC%3%DC</source>
-        <translation>%Dk%DN%1%DN выгнал %DN%2%DN с %DC%3%DC</translation>
+        <translation type="obsolete">%Dk%DN%1%DN выгнал %DN%2%DN с %DC%3%DC</translation>
     </message>
     <message>
-        <location filename="../src/uisupport/uistyle.cpp" line="354"/>
         <source>%DrYou are now known as %DN%1%DN</source>
-        <translation>%DrВы теперь известны как %DN%1%DN</translation>
+        <translation type="obsolete">%DrВы теперь известны как %DN%1%DN</translation>
     </message>
     <message>
-        <location filename="../src/uisupport/uistyle.cpp" line="355"/>
         <source>%Dr%DN%1%DN is now known as %DN%2%DN</source>
-        <translation>%Dr%DN%1%DN теперь известен как %DN%2%DN</translation>
+        <translation type="obsolete">%Dr%DN%1%DN теперь известен как %DN%2%DN</translation>
     </message>
     <message>
-        <location filename="../src/uisupport/uistyle.cpp" line="358"/>
         <source>%DmUser mode: %DM%1%DM</source>
-        <translation>%DmПользовательский режим: %DM%1%DM</translation>
+        <translation type="obsolete">%DmПользовательский режим: %DM%1%DM</translation>
     </message>
     <message>
-        <location filename="../src/uisupport/uistyle.cpp" line="359"/>
         <source>%DmMode %DM%1%DM by %DN%2%DN</source>
-        <translation>%DmРежим %DM%1%DM установлен %DN%2%DN</translation>
+        <translation type="obsolete">%DmРежим %DM%1%DM установлен %DN%2%DN</translation>
     </message>
     <message>
-        <location filename="../src/uisupport/uistyle.cpp" line="362"/>
         <source>%Da%DN%1%DN %2</source>
-        <translation>%Da%DN%1%DN %2</translation>
+        <translation type="obsolete">%Da%DN%1%DN %2</translation>
     </message>
     <message>
-        <location filename="../src/uisupport/uistyle.cpp" line="365"/>
         <source>%De[%1]</source>
-        <translation>%De[%1]</translation>
+        <translation type="obsolete">%De[%1]</translation>
     </message>
     <message>
-        <location filename="../src/uisupport/uistyle.cpp" line="387"/>
+        <location filename="../src/uisupport/uistyle.cpp" line="684"/>
         <source>&lt;%1&gt;</source>
         <translation>&lt;%1&gt;</translation>
     </message>
     <message>
-        <location filename="../src/uisupport/uistyle.cpp" line="389"/>
+        <location filename="../src/uisupport/uistyle.cpp" line="648"/>
+        <location filename="../src/uisupport/uistyle.cpp" line="686"/>
         <source>[%1]</source>
         <translation>[%1]</translation>
     </message>
     <message>
-        <location filename="../src/uisupport/uistyle.cpp" line="392"/>
-        <location filename="../src/uisupport/uistyle.cpp" line="394"/>
+        <location filename="../src/uisupport/uistyle.cpp" line="702"/>
+        <source>&lt;-x</source>
+        <translation>&lt;-x</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/uistyle.cpp" line="704"/>
+        <location filename="../src/uisupport/uistyle.cpp" line="706"/>
+        <location filename="../src/uisupport/uistyle.cpp" line="708"/>
+        <location filename="../src/uisupport/uistyle.cpp" line="712"/>
         <source>*</source>
         <translation>*</translation>
     </message>
     <message>
-        <location filename="../src/uisupport/uistyle.cpp" line="396"/>
+        <location filename="../src/uisupport/uistyle.cpp" line="694"/>
         <source>--&gt;</source>
         <translation>--&gt;</translation>
     </message>
     <message>
-        <location filename="../src/uisupport/uistyle.cpp" line="398"/>
-        <location filename="../src/uisupport/uistyle.cpp" line="400"/>
+        <location filename="../src/uisupport/uistyle.cpp" line="567"/>
+        <source>%DN%1%DN %2</source>
+        <extracomment>Action Message</extracomment>
+        <translation>%DN%1%DN %2</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/uistyle.cpp" line="571"/>
+        <source>You are now known as %DN%1%DN</source>
+        <extracomment>Nick Message</extracomment>
+        <translation>Вы теперь известны как %DN%1%DN</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/uistyle.cpp" line="572"/>
+        <source>%DN%1%DN is now known as %DN%2%DN</source>
+        <translation>%DN%1%DN теперь известен как %DN%2%DN</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/uistyle.cpp" line="576"/>
+        <source>User mode: %DM%1%DM</source>
+        <extracomment>Mode Message</extracomment>
+        <translation>Режим пользователя: %DM%1%DM</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/uistyle.cpp" line="577"/>
+        <source>Mode %DM%1%DM by %DN%2%DN</source>
+        <translation>Режим %DM%1%DM изменён %DN%2%DN</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/uistyle.cpp" line="581"/>
+        <source>%DN%1%DN %DH(%2@%3)%DH has joined %DC%4%DC</source>
+        <extracomment>Join Message</extracomment>
+        <translation>%DN%1%DN %DH(%2@%3)%DH вошёл на %DC%4%DC</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/uistyle.cpp" line="584"/>
+        <source>%DN%1%DN %DH(%2@%3)%DH has left %DC%4%DC</source>
+        <extracomment>Part Message</extracomment>
+        <translation>%DN%1%DN %DH(%2@%3)%DH покинул %DC%4%DC</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/uistyle.cpp" line="589"/>
+        <source>%DN%1%DN %DH(%2@%3)%DH has quit</source>
+        <extracomment>Quit Message</extracomment>
+        <translation>%DN%1%DN %DH(%2@%3)%DH покинул сервер</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/uistyle.cpp" line="596"/>
+        <source>%DN%1%DN has kicked %DN%2%DN from %DC%3%DC</source>
+        <extracomment>Kick Message</extracomment>
+        <translation>%DN%1%DN выгнал %DN%2%DN из %DC%3%DC</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/uistyle.cpp" line="613"/>
+        <source>{Day changed to %1}</source>
+        <extracomment>Day Change Message</extracomment>
+        <translation>{День сменился на %1}</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/uistyle.cpp" line="625"/>
+        <source>Netsplit between %DH%1%DH and %DH%2%DH ended. Users joined: </source>
+        <translation>Нетсплит между %DH%1%DH и %DH%2%DH окончен. Присоединились: </translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/uistyle.cpp" line="629"/>
+        <location filename="../src/uisupport/uistyle.cpp" line="644"/>
+        <source>%DN%1%DN (%2 more)</source>
+        <translation>%DN%1%DN (ещё %2)</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/uistyle.cpp" line="639"/>
+        <source>Netsplit between %DH%1%DH and %DH%2%DH. Users quit: </source>
+        <translation>Нетсплит между %DH%1%DH и %DH%2%DH. Отсоединились: </translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/uistyle.cpp" line="696"/>
+        <location filename="../src/uisupport/uistyle.cpp" line="698"/>
         <source>&lt;--</source>
         <translation>&lt;--</translation>
     </message>
     <message>
-        <location filename="../src/uisupport/uistyle.cpp" line="402"/>
+        <location filename="../src/uisupport/uistyle.cpp" line="700"/>
         <source>&lt;-*</source>
         <translation>&lt;-*</translation>
     </message>
     <message>
-        <location filename="../src/uisupport/uistyle.cpp" line="404"/>
+        <location filename="../src/uisupport/uistyle.cpp" line="710"/>
+        <source>-</source>
+        <translation>-</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/uistyle.cpp" line="714"/>
+        <source>=&gt;</source>
+        <translation>=&gt;</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/uistyle.cpp" line="716"/>
+        <source>&lt;=</source>
+        <translation>&lt;=</translation>
+    </message>
+    <message>
+        <location filename="../src/uisupport/uistyle.cpp" line="690"/>
         <source>&lt;-&gt;</source>
         <translation>&lt;-&gt;</translation>
     </message>
     <message>
-        <location filename="../src/uisupport/uistyle.cpp" line="406"/>
+        <location filename="../src/uisupport/uistyle.cpp" line="692"/>
         <source>***</source>
         <translation>***</translation>
     </message>
     <message>
-        <location filename="../src/uisupport/uistyle.cpp" line="408"/>
+        <location filename="../src/uisupport/uistyle.cpp" line="688"/>
         <source>-*-</source>
         <translation>-*-</translation>
     </message>
     <message>
-        <location filename="../src/uisupport/uistyle.cpp" line="410"/>
+        <location filename="../src/uisupport/uistyle.cpp" line="561"/>
+        <location filename="../src/uisupport/uistyle.cpp" line="564"/>
+        <location filename="../src/uisupport/uistyle.cpp" line="604"/>
+        <location filename="../src/uisupport/uistyle.cpp" line="607"/>
+        <location filename="../src/uisupport/uistyle.cpp" line="610"/>
+        <location filename="../src/uisupport/uistyle.cpp" line="617"/>
+        <location filename="../src/uisupport/uistyle.cpp" line="718"/>
         <source>%1</source>
+        <extracomment>Plain Message
+----------
+Notice Message
+----------
+Server Message
+----------
+Info Message
+----------
+Error Message
+----------
+Topic Message</extracomment>
         <translation>%1</translation>
     </message>
 </context>
 <context>
     <name>UserCategoryItem</name>
     <message numerus="yes">
-        <location filename="../src/client/networkmodel.cpp" line="677"/>
+        <location filename="../src/client/networkmodel.cpp" line="675"/>
         <source>%n Owner(s)</source>
         <translation>
             <numerusform>%n владелец</numerusform>
@@ -5954,7 +7245,7 @@ Unless you *really* know what you do, leave this as ISO-8859-1!</source>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../src/client/networkmodel.cpp" line="678"/>
+        <location filename="../src/client/networkmodel.cpp" line="676"/>
         <source>%n Admin(s)</source>
         <translation>
             <numerusform>%n администратор</numerusform>
@@ -5963,7 +7254,7 @@ Unless you *really* know what you do, leave this as ISO-8859-1!</source>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../src/client/networkmodel.cpp" line="679"/>
+        <location filename="../src/client/networkmodel.cpp" line="677"/>
         <source>%n Operator(s)</source>
         <translation>
             <numerusform>%n оператор</numerusform>
@@ -5972,7 +7263,7 @@ Unless you *really* know what you do, leave this as ISO-8859-1!</source>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../src/client/networkmodel.cpp" line="680"/>
+        <location filename="../src/client/networkmodel.cpp" line="678"/>
         <source>%n Half-Op(s)</source>
         <translation>
             <numerusform>%n полуоператор</numerusform>
@@ -5981,7 +7272,7 @@ Unless you *really* know what you do, leave this as ISO-8859-1!</source>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../src/client/networkmodel.cpp" line="681"/>
+        <location filename="../src/client/networkmodel.cpp" line="679"/>
         <source>%n Voiced</source>
         <translation>
             <numerusform>%n с голосом</numerusform>
@@ -5990,7 +7281,7 @@ Unless you *really* know what you do, leave this as ISO-8859-1!</source>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../src/client/networkmodel.cpp" line="682"/>
+        <location filename="../src/client/networkmodel.cpp" line="680"/>
         <source>%n User(s)</source>
         <translation>
             <numerusform>%n пользователь</numerusform>
